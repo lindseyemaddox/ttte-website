@@ -9,30 +9,87 @@ section.slider {
 		bottom: 0;
 		z-index: 1;
 	}
-	li {
+	div.flexslider {
+		z-index: -1;
 		position: relative;
-		div.headline {
-			position: absolute;
-			top: 20%;
-			left: 35%;
-			z-index: 2;
-			p.number {
-				color: @gold;
-				.aleo-bold;
-				opacity: .65;
-				font-size: 14em;
-			}
-			p.tag {
-				color: @gold;
-				.aleo-bold;
-				font-size: 3.6666666666666665em;
-				line-height: .8em;
-				margin-left: 20%;
-				margin-top: -100px;
-			}
+	}
+	div.headlines {
+		z-index: 2;
+		li {
+			div.headline {
+				top: 20%;
+				left: 35%;
+				position: relative;
+				p.number {
+					color: @gold;
+					.aleo-bold;
+					opacity: .65;
+					font-size: 20em;
+				}
+				p.tag {
+					color: @gold;
+					.aleo-bold;
+					font-size: 4.5em;
+					line-height: .8em;
+					margin-left: 20%;
+					margin-top: -140px;
+				}
+			}		
 		}
 		img {
 			width: 100%;
 		}
 	}
 }
+section#intro {
+	position: relative;
+	background-color: @gold;
+	div#text {
+		padding: 33px 0 33px 45%;
+		h1 {
+			.ubuntu-regular;
+			font-size: 1.6em;
+			line-height: 1.25em;
+			text-align: left;
+			a {
+				color: #fff;
+				text-decoration: underline;
+				&:hover {
+					color: @purple;
+					.transition;
+				}
+			}
+		}
+	}
+	div#rwm {
+		position: absolute;
+		bottom: 0;
+		left: 5%;
+		z-index: 1;
+		img {
+			width: 95%;
+		}
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

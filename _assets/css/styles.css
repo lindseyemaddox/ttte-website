@@ -453,11 +453,11 @@ header {
 }
 header nav ul li {
   font-family: 'aleoregular', serif;
-  font-size: 1em;
+  font-size: 1.5em;
   line-height: 84px;
   display: inline-block;
   text-transform: uppercase;
-  padding: 0 4.5%;
+  padding: 0 3.35%;
 }
 header nav ul li a {
   color: #fff;
@@ -491,31 +491,68 @@ section.slider div.overlay {
   bottom: 0;
   z-index: 1;
 }
-section.slider li {
+section.slider div.flexslider {
+  z-index: -1;
   position: relative;
 }
-section.slider li div.headline {
-  position: absolute;
-  top: 20%;
-  left: 35%;
+section.slider div.headlines {
   z-index: 2;
 }
-section.slider li div.headline p.number {
+section.slider div.headlines li div.headline {
+  top: 20%;
+  left: 35%;
+  position: relative;
+}
+section.slider div.headlines li div.headline p.number {
   color: #c6b000;
   font-family: 'aleobold', serif;
   opacity: .65;
-  font-size: 14em;
+  font-size: 20em;
 }
-section.slider li div.headline p.tag {
+section.slider div.headlines li div.headline p.tag {
   color: #c6b000;
   font-family: 'aleobold', serif;
-  font-size: 3.6666666666666665em;
+  font-size: 4.5em;
   line-height: .8em;
   margin-left: 20%;
-  margin-top: -100px;
+  margin-top: -140px;
 }
-section.slider li img {
+section.slider div.headlines img {
   width: 100%;
+}
+section#intro {
+  position: relative;
+  background-color: #c6b000;
+}
+section#intro div#text {
+  padding: 33px 0 33px 45%;
+}
+section#intro div#text h1 {
+  font-family: 'ubunturegular', sans-serif;
+  font-size: 1.6em;
+  line-height: 1.25em;
+  text-align: left;
+}
+section#intro div#text h1 a {
+  color: #fff;
+  text-decoration: underline;
+}
+section#intro div#text h1 a:hover {
+  color: #434dae;
+  -webkit-transition: all 400ms ease;
+  -moz-transition: all 400ms ease;
+  -o-transition: all 400ms ease;
+  -ms-transition: all 400ms ease;
+  transition: all 400ms ease;
+}
+section#intro div#rwm {
+  position: absolute;
+  bottom: 0;
+  left: 5%;
+  z-index: 1;
+}
+section#intro div#rwm img {
+  width: 95%;
 }
 /*======================================================*/
 /*================  RESPONSIVE STYLES  ================*/
