@@ -89,3 +89,15 @@ function placeholderSupported() {
     test = document.createElement('input');
     return ('placeholder' in test);
 }
+
+$(function() {
+
+	if($("#home").length > 0) {
+
+	} else {
+
+		$('nav a[href^="/' + location.pathname.split("/")[1] + '"]').addClass('active');
+
+	}
+
+});
