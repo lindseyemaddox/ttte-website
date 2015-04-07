@@ -1,25 +1,12 @@
 section.slider {
-	position: relative;
-	div.overlay {
-		background-color: #000;
-		opacity: .5;
-		width: 100%;
-		position: absolute;
-		top: 0;
-		bottom: 0;
-		z-index: 1;
-	}
 	div.flexslider {
-		z-index: -1;
-		position: relative;
-	}
-	div.headlines {
-		z-index: 2;
 		li {
+			position: relative;
 			div.headline {
 				top: 20%;
 				left: 35%;
-				position: relative;
+				position: absolute;
+				z-index: 2;
 				p.number {
 					color: @gold;
 					.aleo-bold;
@@ -35,9 +22,17 @@ section.slider {
 					margin-top: -140px;
 				}
 			}		
-		}
-		img {
-			width: 100%;
+			div.overlay {
+				background-color: #000;
+				opacity: .5;
+				width: 100%;
+				position: absolute;
+				top: 0;
+				bottom: 0;
+			}
+			img {
+				width: 100%;
+			}
 		}
 	}
 }

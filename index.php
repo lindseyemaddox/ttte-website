@@ -3,83 +3,70 @@
 <?php require_once($_SERVER['DOCUMENT_ROOT'].'/_assets/inc/navigation.php'); //navigation?>
 
 <section class="slider">
-	<div class="flexslider headlines carousel">
+	<div class="flexslider carousel">
 		<ul class="slides">
 			<li>
 				<div class="headline">
 					<p class="number">8</p>
 					<p class="tag">Carnegie <br/>Performances</p>
 				</div><!--headline-->
+				<div class="overlay"></div>
+			    <img src="/_assets/img/slide-ensemble-2014.jpg" alt="Tennessee Tech Tuba Ensemble 2014" alt="Tennessee Tech Tuba Ensemble 2014">
 			</li>
 			<li>
 				<div class="headline">
 					<p class="number">8</p>
 					<p class="tag">Commercial <br/>Recordings</p>
 				</div><!--headline-->
+				<div class="overlay"></div>
+			    <img src="/_assets/img/slide-ensemble-2007.jpg" alt="Tennessee Tech Tuba Ensemble 2007" alt="Tennessee Tech Tuba Ensemble 2007">
 			</li>
 			<li>
 				<div class="headline">
 					<p class="number">8</p>
 					<p class="tag">Years In <br/>Existence</p>
 				</div><!--headline-->
+				<div class="overlay"></div>
+			    <img src="/_assets/img/slide-ensemble-2001.jpg" alt="Tennessee Tech Tuba Ensemble 2001" alt="Tennessee Tech Tuba Ensemble 2001">
 			</li>
 			<li>
 				<div class="headline">
 					<p class="number">8</p>
 					<p class="tag">Current <br/>Members</p>
 				</div><!--headline-->
+				<div class="overlay"></div>
+			    <img src="/_assets/img/slide-ensemble-2006.jpg" alt="Tennessee Tech Tuba Ensemble 2006" alt="Tennessee Tech Tuba Ensemble 2006">
 			</li>
 			<li>
 				<div class="headline">
 					<p class="number">8</p>
 					<p class="tag">Commissioned <br/>Pieces</p>
 				</div><!--headline-->
+				<div class="overlay"></div>
+			    <img src="/_assets/img/slide-ensemble-2005.jpg" alt="Tennessee Tech Tuba Ensemble 2005" alt="Tennessee Tech Tuba Ensemble 2005">
 			</li>
 			<li>
 				<div class="headline">
 					<p class="number">8</p>
 					<p class="tag">Alumni <br/>Members</p>
 				</div><!--headline-->
+				<div class="overlay"></div>
+			    <img src="/_assets/img/slide-ensemble-2012.jpg" alt="Tennessee Tech Tuba Ensemble 2012" alt="Tennessee Tech Tuba Ensemble 2012">
 			</li>
 			<li>
 				<div class="headline">
 					<p class="number">8</p>
 					<p class="tag">Books <br/>Published</p>
 				</div><!--headline-->
+				<div class="overlay"></div>
+			    <img src="/_assets/img/slide-ensemble-2010.jpg" alt="Tennessee Tech Tuba Ensemble 2010" alt="Tennessee Tech Tuba Ensemble 2010">
 			</li>
 			<li>
 				<div class="headline">
 					<p class="number">8</p>
 					<p class="tag">Professional <br/>Alumni</p>
 				</div><!--headline-->
-			</li>
-		</ul>
-	</div>
-	<div class="overlay"></div>
-	<div class="flexslider carousel">
-		<ul class="slides">
-			<li>
-			    <img src="/_assets/img/slide-ensemble-2014.jpg" alt="Tennessee Tech Tuba Ensemble 2014" alt="Tennessee Tech Tuba Ensemble 2014">
-			</li>
-			<li>
-			    <img src="/_assets/img/slide-ensemble-2007.jpg" alt="Tennessee Tech Tuba Ensemble 2007" alt="Tennessee Tech Tuba Ensemble 2007">
-			</li>
-			<li>
-			    <img src="/_assets/img/slide-ensemble-2001.jpg" alt="Tennessee Tech Tuba Ensemble 2001" alt="Tennessee Tech Tuba Ensemble 2001">
-			</li>
-			<li>
-			    <img src="/_assets/img/slide-ensemble-2006.jpg" alt="Tennessee Tech Tuba Ensemble 2006" alt="Tennessee Tech Tuba Ensemble 2006">
-			</li>
-			<li>
-			    <img src="/_assets/img/slide-ensemble-2005.jpg" alt="Tennessee Tech Tuba Ensemble 2005" alt="Tennessee Tech Tuba Ensemble 2005">
-			</li>
-			<li>
-			    <img src="/_assets/img/slide-ensemble-2012.jpg" alt="Tennessee Tech Tuba Ensemble 2012" alt="Tennessee Tech Tuba Ensemble 2012">
-			</li>
-			<li>
-			    <img src="/_assets/img/slide-ensemble-2010.jpg" alt="Tennessee Tech Tuba Ensemble 2010" alt="Tennessee Tech Tuba Ensemble 2010">
-			</li>
-			<li>
+				<div class="overlay"></div>
 			    <img src="/_assets/img/slide-ensemble-2009.jpg" alt="Tennessee Tech Tuba Ensemble 2009" alt="Tennessee Tech Tuba Ensemble 2009">
 			</li>
 		</ul>
@@ -100,7 +87,7 @@
 	  SyntaxHighlighter.all();
 	});
 	$(window).load(function(){
-	  $('.flexslider, .flexslider-headline').flexslider({
+	  $('.flexslider').flexslider({
 	    animation: "slide",
 	    start: function(slider){
 	      $('body').removeClass('loading');
