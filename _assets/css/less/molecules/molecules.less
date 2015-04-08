@@ -9,6 +9,8 @@ body {
 
 @gold:		#c6b000;
 @purple:	#434dae;
+@green:		#008e58;
+
 
 h1 {
 	.ubuntu-bold;
@@ -27,4 +29,22 @@ h3 {
 
 p {
 
+}
+
+.btn {
+	background-color: @purple;
+	display: block;
+	margin: 5px auto;
+	padding: 12px 0 7px;
+	color: #fff;
+	text-transform: uppercase;
+	.ubuntu-bold;
+	font-size: 2em;
+	text-align: center;
+	.border-radius(3px);
+	text-decoration: none;
+	&:hover {
+		background-color: @green;
+		.transition;
+	}
 }

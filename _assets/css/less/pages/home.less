@@ -11,15 +11,15 @@ section.slider {
 					color: @gold;
 					.aleo-bold;
 					opacity: .65;
-					font-size: 20em;
+					font-size: 30em;
 				}
 				p.tag {
 					color: @gold;
 					.aleo-bold;
-					font-size: 4.5em;
+					font-size: 6.5em;
 					line-height: .8em;
 					margin-left: 20%;
-					margin-top: -140px;
+					margin-top: -240px;
 				}
 			}		
 			div.overlay {
@@ -67,7 +67,65 @@ section#intro {
 	}
 }
 
-
+section#infoBoxes {
+	padding: 80px 0 107px;
+	background-color: #000;
+	article.box {
+		display: inline-block;
+		vertical-align: top;
+		width: 30%;
+		margin: 0 1.5% 30px;
+		padding: 20px 2%;
+		background: url(/_assets/img/pattern-yellow.png) repeat left top transparent;
+		min-height: 636px;
+		position: relative;
+		img {
+			width: 100%;
+			margin-bottom: 10px;
+		}
+		h3 {
+			text-align: center;
+			.aleo-bold;
+			color: #000;
+			text-transform: uppercase;
+			font-size: 1.8em;
+			line-height: 1em;
+			margin-bottom: 10px;
+		}
+		h4 {
+			.ubuntu-medium;
+			font-size: 2em;
+			line-height: 1.2em;
+			color: #000;
+			text-align: center;
+			margin-bottom: 10px;
+		}
+		h5 {
+			.ubuntu-medium-italic;
+			font-size: 2.6666666666666665em;
+			margin: 10px 0;
+		}
+		h6 {
+			.ubuntu-regular;
+			font-size: 1.6666666666666667em;
+			line-height: 1.5em;
+			text-align: center;
+			a {
+				text-decoration: underline;
+				color: #000;
+				&:hover {
+					color: @green;
+					.transition;
+				}
+			}
+		}
+		.btn {
+			position: absolute;
+			bottom: 20px;
+			width: 87%;
+		}
+	}
+}
 
 
 

@@ -10,6 +10,7 @@
 					<li><a href="/alumni/">Alumni</a></li>
 					<li><a href="/calendar/">Calendar</a></li>
 					<li><a href="/recordings/">Recordings</a></li>
+					<li><a href="/contact/">Contact</a></li>
 				</ul>
 			</nav>
 		</div><!--inner-->
