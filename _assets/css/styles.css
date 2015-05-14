@@ -441,6 +441,31 @@ h1 {
   font-size: 2.6666666666666665em;
   color: #fff;
   text-align: center;
+  padding-bottom: 55px;
+}
+h2 {
+  font-family: 'ubuntubold', sans-serif;
+  font-size: 2.6666666666666665em;
+  color: #c6b000;
+  text-align: right;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 4px #000;
+}
+h3 {
+  font-family: 'ubuntubold', sans-serif;
+  font-size: 1.6em;
+  line-height: 2em;
+  color: #c6b000;
+  text-align: right;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 3px #000;
+}
+p {
+  font-family: 'aleoregular', serif;
+  font-size: 2em;
+  line-height: 1.2em;
+  color: #fff;
+  padding-bottom: 46px;
 }
 .btn {
   background-color: #434dae;
@@ -1555,8 +1580,11 @@ section#main h1 {
   text-align: center;
   text-transform: uppercase;
 }
-section#main#morris .heading {
-  background: url(/_assets/img/heading-morris.jpg) no-repeat center top transparent / cover;
+section#main.morris div#heading {
+  background: url(/_assets/img/heading-morris.jpg) no-repeat center top transparent;
+  background-size: cover;
+  padding: 245px 28px 20px;
+  margin-bottom: 65px;
 }
 /*======================================================*/
 /*================  RESPONSIVE STYLES  ================*/
