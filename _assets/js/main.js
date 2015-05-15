@@ -15,7 +15,6 @@ function firstLoad() {
 	initVars();
 	showMenu();
 	initPlaceholders();
-	activeNav();
 }
 
 // function to set dom vars, etc that will not change
@@ -78,7 +77,7 @@ function placeholderSupported() {
     return ('placeholder' in test);
 }
 
-$(function activeNav() {
+$(function() {
 
 	if($("#home").length > 0) {
 

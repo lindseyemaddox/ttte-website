@@ -464,6 +464,13 @@ h3 {
 h3 span {
   color: #c6b000;
 }
+h4 {
+  font-family: 'aleobold', serif;
+  font-style: italic;
+  font-size: 2em;
+  line-height: 1.2em;
+  color: #c6b000;
+}
 p {
   font-family: 'aleoregular', serif;
   font-size: 2em;
@@ -1456,6 +1463,8 @@ section.slider div.flexslider li div.headline p.number {
   font-family: 'aleobold', serif;
   opacity: .65;
   font-size: 30em;
+  line-height: 1em;
+  padding: 0;
 }
 section.slider div.flexslider li div.headline p.tag {
   color: #c6b000;
@@ -1464,6 +1473,8 @@ section.slider div.flexslider li div.headline p.tag {
   line-height: .8em;
   margin-left: 20%;
   margin-top: -240px;
+  line-height: 1em;
+  padding: 0;
 }
 section.slider div.flexslider li div.overlay {
   background-color: #000;
@@ -1536,6 +1547,7 @@ section#infoBoxes article.box h3 {
   font-size: 1.8em;
   line-height: 1em;
   margin-bottom: 10px;
+  white-space: inherit;
 }
 section#infoBoxes article.box h4 {
   font-family: 'ubuntumedium', sans-serif;
@@ -1606,6 +1618,9 @@ section#main.morris div#heading h3 {
   text-align: right;
   text-transform: uppercase;
   text-shadow: 2px 2px 3px #000;
+}
+section.ttte h4 {
+  margin: 78px 0 48px;
 }
 /*======================================================*/
 /*================  RESPONSIVE STYLES  ================*/
