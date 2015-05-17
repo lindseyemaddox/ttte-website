@@ -1622,6 +1622,151 @@ section#main.morris div#heading h3 {
 section.ttte h4 {
   margin: 78px 0 48px;
 }
+div.wrapper {
+  display: table;
+  height: 100%;
+  width: 100%;
+}
+div.main {
+  display: table-row;
+  height: 100%;
+}
+div.main-scrollable {
+  height: 100%;
+  overflow-y: auto;
+}
+aside.sorter {
+  display: table-cell;
+  min-width: 176px;
+  width: 176px;
+  background-color: #fff;
+  padding: 33px 24px 60px;
+  border-right: 20px solid #000;
+}
+aside.sorter li {
+  font-family: 'ubunturegular', sans-serif;
+  text-transform: uppercase;
+  color: #000;
+  font-size: 2em;
+  line-height: 0.5em;
+  padding-bottom: 14px;
+}
+aside.sorter li a {
+  text-decoration: none;
+  color: #000;
+  font-size: 0.5em;
+}
+aside.sorter li.heading {
+  margin-top: 28px;
+}
+div#members {
+  display: table-cell;
+  width: 100%;
+}
+div.slider-row {
+  margin-bottom: 44px;
+}
+div.slider-row h4,
+div.slider-row div.slider {
+  display: inline-block;
+  vertical-align: middle;
+}
+section.alumni {
+  padding: 77px 0 65px;
+}
+section.alumni h1 {
+  padding: 0px 0px 20px;
+}
+section.alumni div#slider-cont #options {
+  width: 22%;
+  display: inline-block;
+  vertical-align: top;
+}
+section.alumni div#slider-cont ul#filters li {
+  float: left;
+  list-style-type: none;
+  width: 5.7%;
+  font-size: .4em;
+  visibility: hidden;
+}
+section.alumni article {
+  width: 22.55%;
+  margin: 0 1.2% 22px;
+  padding: 15px 1.55%;
+  background-color: #c6b000;
+}
+section.alumni article h5 {
+  font-family: 'aleobold', serif;
+  color: #000;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 1.8em;
+  padding-bottom: 13px;
+}
+section.alumni article h5.long {
+  font-size: 1.5em;
+  line-height: 1.2em;
+}
+section.alumni article h5 span {
+  display: block;
+}
+section.alumni article h6 {
+  font-family: 'aleoregular', serif;
+  font-size: 1.3em;
+  text-align: center;
+  text-transform: uppercase;
+  padding-bottom: 10px;
+}
+section.alumni article p.date {
+  font-family: 'aleoregular', serif;
+  font-size: 2em;
+  text-align: center;
+  color: #000;
+  padding-bottom: 10px;
+}
+section.alumni article .btn {
+  font-size: 1em;
+}
+section.alumni article .btn.na {
+  opacity: .3;
+}
+section.alumni article .btn.na:hover {
+  background-color: #434dae;
+}
+div.slider-right {
+  width: 77%;
+  float: right;
+  margin-top: 7px;
+}
+div.slider-right div.slider-image {
+  margin-bottom: 22px;
+}
+div.slider-right div.slider-image img {
+  width: 100%;
+}
+.ui-slider {
+  width: 84%!important;
+  margin: 0 2%;
+}
+.ui-state-default,
+.ui-widget-content .ui-state-default,
+.ui-widget-header .ui-state-default {
+  background-image: none!important;
+  background-color: #c6b000 !important;
+  border: 0 !important;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+}
+.ui-slider-horizontal {
+  height: 0!important;
+}
+.ui-slider-horizontal .ui-slider-handle {
+  top: -0.58em !important;
+}
+.ui-widget-content {
+  border-color: #c6b000 !important;
+}
 /*======================================================*/
 /*================  RESPONSIVE STYLES  ================*/
 /*====================================================*/

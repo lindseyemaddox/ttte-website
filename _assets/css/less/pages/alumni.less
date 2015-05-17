@@ -1,0 +1,155 @@
+div.wrapper {
+    display: table;
+    height: 100%;
+    width: 100%;	
+}
+div.main {
+    display: table-row;
+    height: 100%;
+}
+div.main-scrollable {
+    height: 100%;
+    overflow-y: auto;
+}
+aside.sorter {
+    display: table-cell;
+    min-width: 176px;
+    width: 176px;
+    background-color: #fff;
+    padding: 33px 24px 60px;
+    border-right: 20px solid #000;
+    li {
+    	.ubuntu-regular;
+    	text-transform: uppercase;
+    	color: #000;
+    	font-size: 2em;
+    	line-height: 0.5em;
+    	padding-bottom: 14px;
+    	a {
+    		text-decoration: none;
+    		color: #000;
+			font-size: 0.5em;
+    	}
+    	&.heading {
+    		margin-top: 28px;
+    	}
+    }
+}
+div#members {
+    display: table-cell;
+    width: 100%;
+}
+
+div.slider-row {
+	margin-bottom: 44px;
+	h4, div.slider {
+		display: inline-block;
+		vertical-align: middle;
+	}
+}
+
+section.alumni {
+	padding: 77px 0 65px;
+	h1 {
+		padding: 0px 0px 20px;
+	}
+	div#slider-cont {
+		#options {
+			width: 22%;
+			display: inline-block;
+			vertical-align: top;
+		}
+		ul#filters {
+			li {
+				float: left;
+				list-style-type: none;
+				width: 5.7%;
+				font-size: .4em;
+				visibility: hidden;
+			}
+		}
+	}
+	article {
+		width: 22.55%;
+		margin: 0 1.2% 22px;
+		padding: 15px 1.55%;
+		background-color: @gold;
+		h5 {
+			.aleo-bold;
+			color: #000;
+			text-transform: uppercase;
+			text-align: center;
+			font-size: 1.8em;
+			padding-bottom: 13px;
+			&.long {
+				font-size: 1.5em;
+				line-height: 1.2em;
+			}
+			span {
+				display: block;
+			}
+		}
+		h6 {
+			.aleo-regular;
+			font-size: 1.3em;
+			text-align: center;
+			text-transform: uppercase;
+			padding-bottom: 10px;
+		}
+		p.date {
+			.aleo-regular;
+			font-size: 2em;
+			text-align: center;
+			color: #000;
+			padding-bottom: 10px;
+		}
+		.btn {
+			font-size: 1em;
+			&.na {
+				opacity: .3;
+				&:hover {
+					background-color: @purple;
+				}
+			}
+		}
+	}
+}
+
+
+
+
+div.slider-right {
+	width: 77%;
+	float: right;
+	margin-top: 7px;
+	div.slider-image {
+		margin-bottom: 22px;
+		img {
+			width: 100%;
+		}
+	}
+}
+
+.ui-slider {
+	width: 84%!important;
+	margin: 0 2%;
+}
+
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
+	background-image: none!important;
+	background-color: @gold!important;
+	border: 0 !important;
+	.border-radius(50%);
+}
+
+.ui-slider-horizontal {
+	height: 0!important;
+}
+
+.ui-slider-horizontal .ui-slider-handle {
+	top: -.58em!important;
+}
+
+.ui-widget-content {
+	border-color: @gold!important;
+}
