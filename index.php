@@ -63,7 +63,7 @@
 			</li>
 			<li>
 				<div class="headline">
-					<p class="number" id="alumni">400</p>
+					<p class="number" id="alumni">348</p>
 					<p class="tag">Alumni <br/>Members</p>
 				</div><!--headline-->
 				<div class="overlay"></div>

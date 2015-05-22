@@ -132,117 +132,43 @@
 
 			    	<div id="members" class="clearfix">
 
-			      		<article class="member euphonium y1992 y1993">
-			      			<h5>Becky <span class="name">Alexander</span></h5>
-			      			<h6>Euphonium</h6>
-			      			<p class="date">1992-1993</p>
-			      			<a class="btn fancybox fancybox.iframe na">View Profile</a>
-			      		</article>
+						<?php
+						  // make database connection
+						  // depends on what database you are using. This is for mysqli
 
-			      		<article class="member euphonium y1987 y1988">
-			      			<h5>Aaron <span class="name">Angel</span></h5>
-			      			<h6>Euphonium</h6>
-			      			<p class="date">1987-1988</p>
-			      			<a class="btn fancybox fancybox.iframe na">View Profile</a>
-			      		</article>
+						  // change these to what yours are
+						  $dbSettings = array(
+						    'db_name'  => 'ttte',
+						    'hostname' => '127.0.0.1',
+						    'user'     => 'root',
+						    'password' => 'aza1ea99',
+						  );
 
-			      		<article class="member euphonium y2006 y2007 y2008">
-			      			<h5>Michael <span class="name">Altom</span></h5>
-			      			<h6>Euphonium</h6>
-			      			<p class="date">2006-2008</p>
-			      			<a href="/profiles/altom-michael.php" class="btn fancybox fancybox.iframe">View Profile</a>
-			      		</article>
+						  // setup connection
+						  $dbConn = mysqli_connect($dbSettings['hostname'], $dbSettings['user'], $dbSettings['password'], $dbSettings['db_name']);
 
-			      		<article class="member euphonium y1978 y1979 y1980 y1981 y1982 y1983">
-			      			<h5>John <span class="name">Arnold</span></h5>
-			      			<h6>Euphonium</h6>
-			      			<p class="date">1978-1983</p>
-			      			<a href="/profiles/arnold-john.php" class="btn fancybox fancybox.iframe">View Profile</a>
-			      		</article>
+						  //make the query, change table_name to the table you need to get data from
+						  $mysql_query = "SELECT * FROM alumni";
 
-			      		<article class="member euphonium y1967 y1968">
-			      			<h5>James <span class="name">Baxter</span></h5>
-			      			<h6>Euphonium</h6>
-			      			<p class="date">1967-1968</p>
-			      			<a class="btn fancybox fancybox.iframe na">View Profile</a>
-			      		</article>
+						  // get the results
+						  $result = mysqli_query($dbConn, $mysql_query) or die("Error: " . mysqli_error($dbConn));
 
-			      		<article class="member euphonium y1980">
-			      			<h5>Danette <span class="name">Beasley</span></h5>
-			      			<h6>Euphonium</h6>
-			      			<p class="date">1980-1980</p>
-			      			<a class="btn fancybox fancybox.iframe na">View Profile</a>
-			      		</article>
+						  while ($member = mysqli_fetch_array($result, MYSQL_ASSOC))
+						  {
+						    // this stuff all depends on how your database and data is setup
+						    // this is a basic example
+						    // you may need to use conditional code as well.
 
-			      		<article class="member euphonium y1997 y1998 y1999 y2000 y2001 y2002 y2003">
-			      			<h5>Cory <span class="name">Belvin</span></h5>
-			      			<h6>Euphonium</h6>
-			      			<p class="date">1997-2003</p>
-			      			<a href="/profiles/belvin-cory.php" class="btn fancybox fancybox.iframe">View Profile</a>
-			      		</article>
-
-			      		<article class="member euphonium y1991 y1992 y1993 y1994 y1995">
-			      			<h5>Lloyd <span class="name">Bone</span></h5>
-			      			<h6>Euphonium</h6>
-			      			<p class="date">1991-1995</p>
-			      			<a href="/profiles/bone-lloyd.php" class="btn fancybox fancybox.iframe">View Profile</a>
-			      		</article>
-
-			      		<article class="member tuba y1980 y1981 y1982 y1983 y1984 y1985">
-			      			<h5>Charles <span class="name">Abernathy</span></h5>
-			      			<h6>Tuba</h6>
-			      			<p class="date">1980-1985</p>
-			      			<a class="btn fancybox fancybox.iframe na">View Profile</a>
-			      		</article>
-
-			      		<article class="member tuba y1971 y1972 y1973 y1974 y1975 y1976">
-			      			<h5>William <span class="name">Acuff</span></h5>
-			      			<h6>Tuba</h6>
-			      			<p class="date">1971-1976</p>
-			      			<a href="/profiles/acuff-william.php" class="btn fancybox fancybox.iframe">View Profile</a>
-			      		</article>
-
-			      		<article class="member tuba y1989">
-			      			<h5>John <span class="name">Alcock</span></h5>
-			      			<h6>Tuba</h6>
-			      			<p class="date">1989-1989</p>
-			      			<a class="btn fancybox fancybox.iframe na">View Profile</a>
-			      		</article>
-
-			      		<article class="member tuba y1988 y1989 y1990 y1991">
-			      			<h5>Donna <span class="name">Algood</span></h5>
-			      			<h6>Tuba</h6>
-			      			<p class="date">1989-1989</p>
-			      			<a class="btn fancybox fancybox.iframe na">View Profile</a>
-			      		</article>
-
-			      		<article class="member tuba y2005 y2006 y2007 y2008 y2009">
-			      			<h5>Cory <span class="name">Allen</span></h5>
-			      			<h6>Tuba</h6>
-			      			<p class="date">2005-2009</p>
-			      			<a class="btn fancybox fancybox.iframe na">View Profile</a>
-			      		</article>
-
-			      		<article class="member tuba y1973 y1974 y1975 y1976 y1977 y1978">
-			      			<h5>Marcus <span class="name">Arnold</span></h5>
-			      			<h6>Tuba</h6>
-			      			<p class="date">1973-1978</p>
-			      			<a href="/profiles/arnold-marcus.php" class="btn fancybox fancybox.iframe">View Profile</a>
-			      		</article>
-
-			      		<article class="member tuba y1998 y1999 y2000 y2001 y2002">
-			      			<h5>Gray <span class="name">Bach</span></h5>
-			      			<h6>Tuba</h6>
-			      			<p class="date">1998-2002</p>
-			      			<a href="/profiles/bach-gray.php" class="btn fancybox fancybox.iframe">View Profile</a>
-			      		</article>
-
-			      		<article class="member tuba y2009 y2010 y2011">
-			      			<h5>James <span class="name">Baggett</span></h5>
-			      			<h6>Tuba</h6>
-			      			<p class="date">2009-2011</p>
-			      			<a class="btn fancybox fancybox.iframe na">View Profile</a>
-			      		</article>
+						?>						
+						<article class="member <?= $member['instrument']; ?> <?= $member['years-y']; ?>">
+						  <h5><?= $member['name-first']; ?> <span class="name"><?= $member['name-last']; ?></span></h5>
+						  <h6><?= $member['instrument']; ?></h6>
+						  <p class="date"><?= $member['years']; ?></p>
+						  <a href="/profile/<?= $member['name-first'].'-'.$member['name-last'].'.php';" class="btn fancybox fancybox.iframe <?= (!$member['bio']) ? 'na': null; ?>">View Profile</a>
+						</article>
+						<?php
+						  } //endwhile
+						?>
 
 				    </div><!--members-->
 
