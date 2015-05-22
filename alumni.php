@@ -307,6 +307,8 @@
           var slideVal = ui.value;
           $('#filters li:eq('+ slideVal +') a').trigger('click');
           $('#filters li:eq('+ slideVal +') a').css('color','blue');
+        	console.log(slideVal);
+
         }
       });
 

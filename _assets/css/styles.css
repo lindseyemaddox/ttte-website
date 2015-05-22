@@ -573,10 +573,12 @@ header nav ul li a:hover {
 header nav ul li a.active {
   color: #c6b000;
 }
+/******** END MAIN HEADER AND NAVIGATION STYLES *********/
 /******** REMOVE THIS TEMPORARY STYLE! *********/
 footer img {
   width: 100%;
 }
+/******** END REMOVE THIS TEMPORARY STYLE! *********/
 /* @group Base */
 .chosen-container {
   position: relative;
@@ -999,6 +1001,7 @@ footer img {
     background-repeat: no-repeat !important;
   }
 }
+/* @end */
 /*! fancyBox v2.1.5 fancyapps.com | fancyapps.com/fancybox/#license */
 .fancybox-wrap,
 .fancybox-skin,
@@ -1955,6 +1958,8 @@ section.alumni article h5 {
   text-transform: uppercase;
   text-align: center;
   font-size: 1.8em;
+  font-style: normal;
+  line-height: 1em;
   padding-bottom: 13px;
 }
 section.alumni article h5.long {
@@ -1963,6 +1968,7 @@ section.alumni article h5.long {
 }
 section.alumni article h5 span {
   display: block;
+  color: #000;
 }
 section.alumni article h6 {
   font-family: 'aleoregular', serif;
