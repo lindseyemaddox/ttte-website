@@ -108,6 +108,7 @@
 			          			<li class="heading">Show</li>
 			          			<li><a href="#filter" data-option-value=".euphonium">Euphoniums</a></li>
 			          			<li><a href="#filter" data-option-value=".tuba">Tubas</a></li>
+			          			<li><a href="#filter" data-option-value=".rhythm">Rhythm</a></li>
 			          			<li class="heading">Recordings</li>
 								<li><a class="recording" href="#filter" data-option-value=".magic">The Tubas Unlimited “Magic Tubas”</a></li>
 								<li><a class="recording" href="#filter" data-option-value=".christmas">Christmas Tubas</a></li>

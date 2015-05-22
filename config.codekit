@@ -122,6 +122,26 @@
 		"strictMath": 0,
 		"strictUnits": 0
 		},
+	"\/_assets\/css\/less\/organisms\/clndr.less": {
+		"allowInsecureImports": 0,
+		"createSourceMap": 0,
+		"disableJavascript": 0,
+		"fileType": 1,
+		"ieCompatibility": 1,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_assets\/css\/less\/organisms\/clndr.less",
+		"outputAbbreviatedPath": "\/_assets\/css\/less\/css\/clndr.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"relativeURLS": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"strictImports": 0,
+		"strictMath": 0,
+		"strictUnits": 0
+		},
 	"\/_assets\/css\/less\/organisms\/fancybox.less": {
 		"allowInsecureImports": 0,
 		"createSourceMap": 0,
@@ -232,6 +252,26 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_assets\/css\/less\/pages\/alumni.less",
 		"outputAbbreviatedPath": "\/_assets\/css\/less\/css\/alumni.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"relativeURLS": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"strictImports": 0,
+		"strictMath": 0,
+		"strictUnits": 0
+		},
+	"\/_assets\/css\/less\/pages\/calendar.less": {
+		"allowInsecureImports": 0,
+		"createSourceMap": 0,
+		"disableJavascript": 0,
+		"fileType": 1,
+		"ieCompatibility": 1,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_assets\/css\/less\/pages\/calendar.less",
+		"outputAbbreviatedPath": "\/_assets\/css\/less\/css\/calendar.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -474,6 +514,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/_assets\/img\/header-calendar.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 55543,
+		"inputAbbreviatedPath": "\/_assets\/img\/header-calendar.jpg",
+		"outputAbbreviatedPath": "\/_assets\/img\/header-calendar.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/_assets\/img\/header-ttte.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -708,6 +759,17 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/_assets\/js\/clndr.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_assets\/js\/clndr.js",
+		"outputAbbreviatedPath": "\/_assets\/js\/min\/clndr-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
 	"\/_assets\/js\/fancybox.jquery.js": {
 		"fileType": 64,
 		"ignore": 0,
@@ -779,6 +841,15 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/alumni.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/calendar.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/calendar.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
