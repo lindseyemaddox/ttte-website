@@ -164,7 +164,7 @@
 						  <h5><?= $member['name-first']; ?> <span class="name"><?= $member['name-last']; ?></span></h5>
 						  <h6><?= $member['instrument']; ?></h6>
 						  <p class="date"><?= $member['years']; ?></p>
-						  <a href="/profile/<?= $member['name-first'].'-'.$member['name-last'].'.php';" class="btn fancybox fancybox.iframe <?= (!$member['bio']) ? 'na': null; ?>">View Profile</a>
+						  <a href="/profile/<?= $member['name-first'].'-'.$member['name-last'].'.php'?>;" class="btn fancybox fancybox.iframe <?= (!$member['bio']) ? 'na': null; ?>">View Profile</a>
 						</article>
 						<?php
 						  } //endwhile
