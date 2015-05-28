@@ -154,7 +154,7 @@
 						  // get the results
 						  $result = mysqli_query($dbConn, $mysql_query) or die("Error: " . mysqli_error($dbConn));
 
-						  while ($member = mysqli_fetch_array($result, MYSQL_ASSOC))
+						  while ($member = mysqli_fetch_assoc($result))
 						  {
 						    // this stuff all depends on how your database and data is setup
 						    // this is a basic example
