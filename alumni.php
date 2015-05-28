@@ -106,6 +106,7 @@
 			          			<li><a href="#filter" data-sort-by="date">Date</a></li>
 			          			<li><a href="#filter" data-sort-by="name">Name</a></li>
 			          			<li class="heading">Show</li>
+			          			<li><a href="#filter" data-option-value=".founder">Founding Members</a></li>
 			          			<li><a href="#filter" data-option-value=".euphonium">Euphoniums</a></li>
 			          			<li><a href="#filter" data-option-value=".tuba">Tubas</a></li>
 			          			<li><a href="#filter" data-option-value=".rhythm">Rhythm</a></li>
@@ -122,7 +123,7 @@
 								<li><a class="recording" href="#filter" data-option-value=".funky">Play That Funky Tuba Right, Boy</a></li>
 								<li><a class="recording" href="#filter" data-option-value=".beast">Unleash The Beast</a></li>
 								<li><a class="recording" href="#filter" data-option-value=".kings">For the Kings of Brass</a></li>
-								<li><a class="recording" href="#filter" data-option-value=".tubology">Tubology 601</a></li>
+								<li><a class="recording" href="#filter" data-option-value=".tubalogy">Tubalogy 601</a></li>
 								<li><a class="recording" href="#filter" data-option-value=".garbage">Pierre Garbage Festival</a></li>
 							</ul>
 
@@ -159,7 +160,7 @@
 						    // this is a basic example
 						    // you may need to use conditional code as well.
 
-						?>						
+						?>
 						<article class="member <?= $member['instrument']; ?> <?= $member['years-y']; ?>">
 						  <h5><?= $member['name-first']; ?> <span class="name"><?= $member['name-last']; ?></span></h5>
 						  <h6><?= $member['instrument']; ?></h6>

@@ -1824,6 +1824,8 @@ section#infoBoxes article.box h6 {
   font-size: 1.6666666666666667em;
   line-height: 1.5em;
   text-align: center;
+  color: #000;
+  text-transform: none;
 }
 section#infoBoxes article.box h6 a {
   text-decoration: underline;
@@ -2029,6 +2031,100 @@ div.slider-right div.slider-image img {
 }
 section.calendar h6 {
   margin: 0 auto 80px;
+}
+div#recordings {
+  display: table-cell;
+  width: 100%;
+}
+section.recordings {
+  padding: 77px 0 65px;
+}
+section.recordings h1 {
+  padding: 0px 0px 20px;
+}
+section.recordings article {
+  width: 47.5%;
+  height: 325px;
+  margin: 0 1% 22px;
+  padding: 15px 1.55%;
+  background-color: #c6b000;
+}
+section.recordings article h5 {
+  font-family: 'aleobold', serif;
+  color: #000;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 1.8em;
+  font-style: normal;
+  line-height: 1em;
+  padding-bottom: 13px;
+}
+section.recordings article h5.long {
+  font-size: 1.5em;
+  line-height: 1.2em;
+}
+section.recordings article h5 span {
+  display: block;
+  color: #000;
+}
+section.recordings article h6.date {
+  font-family: 'aleoregular', serif;
+  font-size: 1.3em;
+  text-align: center;
+  text-transform: uppercase;
+  padding-bottom: 3px;
+  color: #000;
+}
+section.recordings article p {
+  font-family: 'aleoregular', serif;
+  font-size: 1em;
+  text-align: left;
+  color: #000;
+  padding-bottom: 10px;
+}
+section.recordings article p a {
+  font-family: 'ubuntumedium_italic', sans-serif;
+  color: #000;
+  text-decoration: none;
+}
+section.recordings article p a:hover {
+  color: #434dae;
+  -webkit-transition: all 400ms ease;
+  -moz-transition: all 400ms ease;
+  -o-transition: all 400ms ease;
+  -ms-transition: all 400ms ease;
+  transition: all 400ms ease;
+}
+section.recordings article img {
+  width: 30%;
+  display: inline-block;
+  margin-left: 3%;
+}
+section.recordings article div.links {
+  display: inline-block;
+  width: 65%;
+  vertical-align: middle;
+}
+section.recordings article .btn {
+  font-size: 1em;
+}
+section.recordings article .link {
+  font-family: 'aleobold', serif;
+  color: #000;
+  text-transform: uppercase;
+  font-size: 1.2em;
+  line-height: 1em;
+  padding-bottom: 13px;
+  text-align: center;
+  display: block;
+}
+section.recordings article .link:hover {
+  color: #434dae;
+  -webkit-transition: all 400ms ease;
+  -moz-transition: all 400ms ease;
+  -o-transition: all 400ms ease;
+  -ms-transition: all 400ms ease;
+  transition: all 400ms ease;
 }
 /*======================================================*/
 /*================  RESPONSIVE STYLES  ================*/
