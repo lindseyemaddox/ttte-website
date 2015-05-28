@@ -19,5 +19,5 @@ RewriteRule ^([a-zA-Z0-9_-]+)/([a-zA-Z0-9_-]+)/([a-zA-Z0-9_-]+)$ /$1/$2/$3.php [
 
 </IfModule>
 
-php_flag display_errors on
 php_value error_reporting 32767
+php_flag display_errors on

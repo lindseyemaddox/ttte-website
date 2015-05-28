@@ -96,90 +96,90 @@
 
 		        <div class="container">
 			
-			    	<aside class="sorter">
-			    		
-			      		<div id="sidebar-options" class="clearfix">
+  			    	<aside class="sorter">
+  			    		
+  			      		<div id="sidebar-options" class="clearfix">
 
-			        		<ul id="sidebar-filters" class="option-set clearfix" data-option-key="filter">
-			          			<li><a href="#filter" data-option-value="*" class="selected">show all</a></li>
-			          			<li class="heading">Order By</li>
-			          			<li><a href="#filter" data-sort-by="date">Date</a></li>
-			          			<li><a href="#filter" data-sort-by="name">Name</a></li>
-			          			<li class="heading">Show</li>
-			          			<li><a href="#filter" data-option-value=".founder">Founding Members</a></li>
-			          			<li><a href="#filter" data-option-value=".euphonium">Euphoniums</a></li>
-			          			<li><a href="#filter" data-option-value=".tuba">Tubas</a></li>
-			          			<li><a href="#filter" data-option-value=".rhythm">Rhythm</a></li>
-			          			<li class="heading">Recordings</li>
-								<li><a class="recording" href="#filter" data-option-value=".magic">The Tubas Unlimited “Magic Tubas”</a></li>
-								<li><a class="recording" href="#filter" data-option-value=".christmas">Christmas Tubas</a></li>
-								<li><a class="recording" href="#filter" data-option-value=".jazz">TTTE and all that Jazz</a></li>
-								<li><a class="recording" href="#filter" data-option-value=".legacy">Legacy</a></li>
-								<li><a class="recording" href="#filter" data-option-value=".vintage">Vintage</a></li>
-								<li><a class="recording" href="#filter" data-option-value=".heavy">Heavy Metal</a></li>
-								<li><a class="recording" href="#filter" data-option-value=".phat">Phat Bottom Tubas</a></li>
-								<li><a class="recording" href="#filter" data-option-value=".unlimited">Euphoniums Unlimited</a></li>
-								<li><a class="recording" href="#filter" data-option-value=".carnegie">Carnegie VI</a></li>
-								<li><a class="recording" href="#filter" data-option-value=".funky">Play That Funky Tuba Right, Boy</a></li>
-								<li><a class="recording" href="#filter" data-option-value=".beast">Unleash The Beast</a></li>
-								<li><a class="recording" href="#filter" data-option-value=".kings">For the Kings of Brass</a></li>
-								<li><a class="recording" href="#filter" data-option-value=".tubalogy">Tubalogy 601</a></li>
-								<li><a class="recording" href="#filter" data-option-value=".garbage">Pierre Garbage Festival</a></li>
-							</ul>
+  			        		<ul id="sidebar-filters" class="option-set clearfix" data-option-key="filter">
+  			          			<li><a href="#filter" data-option-value="*" class="selected">show all</a></li>
+  			          			<li class="heading">Order By</li>
+  			          			<li><a href="#filter" data-sort-by="date">Date</a></li>
+  			          			<li><a href="#filter" data-sort-by="name">Name</a></li>
+  			          			<li class="heading">Show</li>
+  			          			<li><a href="#filter" data-option-value=".founder">Founding Members</a></li>
+  			          			<li><a href="#filter" data-option-value=".euphonium">Euphoniums</a></li>
+  			          			<li><a href="#filter" data-option-value=".tuba">Tubas</a></li>
+  			          			<li><a href="#filter" data-option-value=".rhythm">Rhythm</a></li>
+  			          			<li class="heading">Recordings</li>
+        								<li><a class="recording" href="#filter" data-option-value=".magic">The Tubas Unlimited “Magic Tubas”</a></li>
+        								<li><a class="recording" href="#filter" data-option-value=".christmas">Christmas Tubas</a></li>
+        								<li><a class="recording" href="#filter" data-option-value=".jazz">TTTE and all that Jazz</a></li>
+        								<li><a class="recording" href="#filter" data-option-value=".legacy">Legacy</a></li>
+        								<li><a class="recording" href="#filter" data-option-value=".vintage">Vintage</a></li>
+        								<li><a class="recording" href="#filter" data-option-value=".heavy">Heavy Metal</a></li>
+        								<li><a class="recording" href="#filter" data-option-value=".phat">Phat Bottom Tubas</a></li>
+        								<li><a class="recording" href="#filter" data-option-value=".unlimited">Euphoniums Unlimited</a></li>
+        								<li><a class="recording" href="#filter" data-option-value=".carnegie">Carnegie VI</a></li>
+        								<li><a class="recording" href="#filter" data-option-value=".funky">Play That Funky Tuba Right, Boy</a></li>
+        								<li><a class="recording" href="#filter" data-option-value=".beast">Unleash The Beast</a></li>
+        								<li><a class="recording" href="#filter" data-option-value=".kings">For the Kings of Brass</a></li>
+        								<li><a class="recording" href="#filter" data-option-value=".tubalogy">Tubalogy 601</a></li>
+        								<li><a class="recording" href="#filter" data-option-value=".garbage">Pierre Garbage Festival</a></li>
+        							</ul>
 
-						</div><!--sidebar-options-->
+        						</div><!--sidebar-options-->
 
-			    	</aside>
+        			    	</aside>
 
-			    	<div id="members" class="clearfix">
+        			    	<div id="members" class="clearfix">
 
-						<?php
-						  // make database connection
-						  // depends on what database you are using. This is for mysqli
+        						<?php
+        						  // make database connection
+        						  // depends on what database you are using. This is for mysqli
 
-						  // change these to what yours are
-						  $dbSettings = array(
-						    'db_name'  => 'ttte',
-						    'hostname' => '127.0.0.1',
-						    'user'     => 'root',
-						    'password' => 'aza1ea99',
-						  );
+        						  // change these to what yours are
+        						  $dbSettings = array(
+        						    'db_name'  => 'ttte',
+        						    'hostname' => 'localhost',
+        						    'user'     => 'root',
+        						    'password' => 'aza1ea99',
+        						  );
 
-						  // setup connection
-						  $dbConn = mysqli_connect($dbSettings['hostname'], $dbSettings['user'], $dbSettings['password'], $dbSettings['db_name']);
+        						  // setup connection
+        						  $dbConn = mysqli_connect($dbSettings['hostname'], $dbSettings['user'], $dbSettings['password'], $dbSettings['db_name']);
 
-						  //make the query, change table_name to the table you need to get data from
-						  $mysql_query = "SELECT * FROM alumni";
+        						  //make the query, change table_name to the table you need to get data from
+        						  $mysql_query = "SELECT * FROM alumni";
 
-						  // get the results
-						  $result = mysqli_query($dbConn, $mysql_query) or die("Error: " . mysqli_error($dbConn));
+        						  // get the results
+        						  $result = mysqli_query($dbConn, $mysql_query) or die("Error: " . mysqli_error($dbConn));
 
-						  while ($member = mysqli_fetch_assoc($result))
-						  {
-						    // this stuff all depends on how your database and data is setup
-						    // this is a basic example
-						    // you may need to use conditional code as well.
+        						  while ($member = mysqli_fetch_assoc($result))
+        						  {
+        						    // this stuff all depends on how your database and data is setup
+        						    // this is a basic example
+        						    // you may need to use conditional code as well.
 
-						?>
-						<article class="member <?= $member['instrument']; ?> <?= $member['years-y']; ?>">
-						  <h5><?= $member['name-first']; ?> <span class="name"><?= $member['name-last']; ?></span></h5>
-						  <h6><?= $member['instrument']; ?></h6>
-						  <p class="date"><?= $member['years']; ?></p>
-						  <a href="/profile/<?= $member['name-first'].'-'.$member['name-last'].'.php'?>;" class="btn fancybox fancybox.iframe <?= (!$member['bio']) ? 'na': null; ?>">View Profile</a>
-						</article>
-						<?php
-						  } //endwhile
-						?>
+        						?>
+        						<article class="member <?= $member['instrument']; ?> <?= $member['years-y']; ?>">
+        						  <h5><?= $member['name-first']; ?> <span class="name"><?= $member['name-last']; ?></span></h5>
+        						  <h6><?= $member['instrument']; ?></h6>
+        						  <p class="date"><?= $member['years']; ?></p>
+        						  <a href="/profile/<?= $member['name-first'].'-'.$member['name-last'].'.php'?>;" class="btn fancybox fancybox.iframe <?= (!$member['bio']) ? 'na': null; ?>">View Profile</a>
+        						</article>
+        						<?php
+        						  } //endwhile
+        						?>
 
-				    </div><!--members-->
+        				    </div><!--members-->
 
-		    	</div><!--container-->
+        		    </div><!--container-->
 
-		    </div><!--main-->
+        		</div><!--main-->
 
-	   </div><!--wrapper-->
+        </div><!--wrapper-->
 
-	</div><!--inner-->
+    </div><!--inner-->
 
 </section><!--main-->
 
@@ -225,21 +225,20 @@
         return false;
       });
 
-      $( ".slider" ).slider({
-        value:0,
-        min: 0,
-        max: 48,
-        step: 1,
-        slide: function( event, ui ) {
-          var slideVal = ui.value;
-          $('#filters li:eq('+ slideVal +') a').trigger('click');
-          $('#filters li:eq('+ slideVal +') a').css('color','blue');
-        	console.log(slideVal);
+    });
 
-        }
-      });
+    $( ".slider" ).slider({
+      value:0,
+      min: 0,
+      max: 48,
+      step: 1,
+      slide: function( event, ui ) {
+        var slideVal = ui.value;
+        $('#filters li:eq('+ slideVal +') a').trigger('click');
+        $('#filters li:eq('+ slideVal +') a').css('color','blue');
+        console.log(slideVal);
 
-
+      }
     });
 
 $(".fancybox")
