@@ -109,7 +109,7 @@
   			          			<li><a href="#filter" data-option-value=".founder">Founding Members</a></li>
   			          			<li><a href="#filter" data-option-value=".euphonium">Euphoniums</a></li>
   			          			<li><a href="#filter" data-option-value=".tuba">Tubas</a></li>
-  			          			<li><a href="#filter" data-option-value=".rhythm">Rhythm</a></li>
+  			          			<li><a href="#filter" data-option-value=".percussion, .guitar, .bass, .piano">Rhythm</a></li>
   			          			<li class="heading">Recordings</li>
         								<li><a class="recording" href="#filter" data-option-value=".magic">The Tubas Unlimited “Magic Tubas”</a></li>
         								<li><a class="recording" href="#filter" data-option-value=".christmas">Christmas Tubas</a></li>
@@ -161,7 +161,7 @@
         						    // you may need to use conditional code as well.
 
         						?>
-        						<article class="member <?= $member['instrument']; ?> <?= $member['years-y']; ?>">
+        						<article class="member <?= $member['instrument']; ?> <?= $member['years-y']; ?> <?= $member['sorters']; ?>">
         						  <h5><?= $member['name-first']; ?> <span class="name"><?= $member['name-last']; ?></span></h5>
         						  <h6><?= $member['instrument']; ?></h6>
         						  <p class="date"><?= $member['years']; ?></p>
@@ -234,9 +234,9 @@
       step: 1,
       slide: function( event, ui ) {
         var slideVal = ui.value;
-        $('#filters li:eq('+ slideVal +') a').trigger('click');
-        $('#filters li:eq('+ slideVal +') a').css('color','blue');
-        console.log(slideVal);
+        $('.option-set li').hide();
+        $('.option-set li:eq('+slideVal+')').show();
+
 
       }
     });

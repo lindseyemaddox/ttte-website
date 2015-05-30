@@ -262,6 +262,26 @@
 		"strictMath": 0,
 		"strictUnits": 0
 		},
+	"\/_assets\/css\/less\/pages\/calendar copy.less": {
+		"allowInsecureImports": 0,
+		"createSourceMap": 0,
+		"disableJavascript": 0,
+		"fileType": 1,
+		"ieCompatibility": 1,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_assets\/css\/less\/pages\/calendar copy.less",
+		"outputAbbreviatedPath": "\/_assets\/css\/less\/css\/calendar copy.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"relativeURLS": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"strictImports": 0,
+		"strictMath": 0,
+		"strictUnits": 0
+		},
 	"\/_assets\/css\/less\/pages\/calendar.less": {
 		"allowInsecureImports": 0,
 		"createSourceMap": 0,
@@ -545,6 +565,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/_assets\/img\/header-contact.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 84645,
+		"inputAbbreviatedPath": "\/_assets\/img\/header-contact.jpg",
+		"outputAbbreviatedPath": "\/_assets\/img\/header-contact.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/_assets\/img\/header-recordings.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -618,6 +649,72 @@
 		"initialSize": 468278,
 		"inputAbbreviatedPath": "\/_assets\/img\/r-winston-morris.png",
 		"outputAbbreviatedPath": "\/_assets\/img\/r-winston-morris.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_assets\/img\/recording-christmas.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 9776,
+		"inputAbbreviatedPath": "\/_assets\/img\/recording-christmas.jpg",
+		"outputAbbreviatedPath": "\/_assets\/img\/recording-christmas.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_assets\/img\/recording-heavy.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6657,
+		"inputAbbreviatedPath": "\/_assets\/img\/recording-heavy.jpg",
+		"outputAbbreviatedPath": "\/_assets\/img\/recording-heavy.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_assets\/img\/recording-jazz.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 7110,
+		"inputAbbreviatedPath": "\/_assets\/img\/recording-jazz.jpg",
+		"outputAbbreviatedPath": "\/_assets\/img\/recording-jazz.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_assets\/img\/recording-legacy.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 9459,
+		"inputAbbreviatedPath": "\/_assets\/img\/recording-legacy.jpg",
+		"outputAbbreviatedPath": "\/_assets\/img\/recording-legacy.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_assets\/img\/recording-magic.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6663,
+		"inputAbbreviatedPath": "\/_assets\/img\/recording-magic.jpg",
+		"outputAbbreviatedPath": "\/_assets\/img\/recording-magic.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_assets\/img\/recording-vintage.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4961,
+		"inputAbbreviatedPath": "\/_assets\/img\/recording-vintage.jpg",
+		"outputAbbreviatedPath": "\/_assets\/img\/recording-vintage.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
