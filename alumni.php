@@ -236,8 +236,6 @@
         var slideVal = ui.value;
         $('.option-set li').hide();
         $('.option-set li:eq('+slideVal+')').show();
-
-
       }
     });
 
