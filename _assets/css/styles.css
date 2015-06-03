@@ -1488,219 +1488,395 @@ html[xmlns] .slides {
   -o-transition: none;
   transition: none;
 }
-.clearfix:after {
-  content: ".";
-  display: block;
-  clear: both;
-  visibility: hidden;
-  line-height: 0;
-  height: 0;
+.container {
+  font-family: verdana;
 }
-.clearfix {
-  display: inline-block;
+.smallCalContainer {
+  float: left;
+  width: 158px;
+  height: 153px;
+  border: 1px solid #4D96EA;
 }
-html[xmlns] .clearfix {
-  display: block;
+.bigCalHeader {
+  font-size: 12px;
+  background-color: #4D96EA;
 }
-* html .clearfix {
-  height: 1%;
+.bigCalHeader .showDate {
+  color: #FFFFFF;
+  float: left;
+  text-align: left;
+  padding-left: 15px;
+  line-height: 25px;
 }
-.noselect {
-  -webkit-user-select: none;
-  /* Chrome/Safari */
-  -moz-user-select: none;
-  /* Firefox */
-  -ms-user-select: none;
-  /* IE10+ */
+.viewChanges {
+  float: right;
+  padding-right: 15px;
 }
-.h4 {
-  width: 75%;
-  text-align: center;
-  font-family: 'aleobold', serif;
-  font-weight: normal;
-  color: white;
-  font-size: 14px;
-  margin: 0 auto 1em auto;
-  padding: 1em;
-  background: #b63642;
+.viewChanges a:link {
+  text-decoration: none;
+  color: #FFFFFF;
+  font-weight: bold;
+  line-height: 25px;
 }
-.p {
-  text-align: center;
-  font-family: 'aleobold', serif;
-  margin: 3em auto 1em auto;
-  padding-top: 0.5em;
-  padding-bottom: 0.5em;
-  border-bottom: 2px solid #414141;
-  background: #f4f4f4;
+.viewChanges a:visited {
+  text-decoration: none;
+  color: #FFFFFF;
+  font-weight: bold;
+  line-height: 25px;
 }
-.cal1 {
-  margin: 0 auto 30px;
-  max-width: 60%;
-  display: inline-block;
-  font-family: 'ubunturegular', sans-serif;
-  font-size: 14px;
+.viewChanges a:hover {
+  text-decoration: none;
+  color: #FFFFFF;
+  font-weight: bold;
+  line-height: 25px;
 }
-.cal1 .clndr .clndr-controls {
-  *zoom: 1;
-  display: inline-block;
+.viewChanges a:active {
+  text-decoration: none;
+  color: #FFFFFF;
+  font-weight: bold;
+  line-height: 25px;
+}
+.smallCalContainer .smallCalendar {
   width: 100%;
-  position: relative;
-  margin-bottom: 10px;
-}
-.cal1 .clndr .clndr-controls .month {
-  float: left;
-  width: 33%;
-  text-align: center;
-  color: #fff;
-}
-.cal1 .clndr .clndr-controls .clndr-control-button {
-  float: left;
-  width: 33%;
-  color: #fff;
-  font-family: 'ubuntumedium', sans-serif;
-  font-size: .7em;
-}
-.cal1 .clndr .clndr-controls .clndr-control-button.rightalign {
   text-align: right;
-  width: 34%;
+  font-size: 11px;
 }
-.cal1 .clndr .clndr-controls .clndr-control-button .clndr-next-button {
+.smallCalContainer .smallCalendar .header {
+  background-color: #4D96EA;
+}
+.forrm {
+  margin-bottom: 0px !important;
+}
+.linkk:link {
+  text-decoration: none;
+  color: #DDDDDD;
+  font-weight: bold;
+}
+.linkk:visited {
+  text-decoration: none;
+  color: #DDDDDD;
+  font-weight: bold;
+}
+.linkk:hover {
+  text-decoration: none;
+  color: #FFFFFF;
+  font-weight: bold;
+}
+.linkk:active {
+  text-decoration: none;
+  color: #DDDDDD;
+  font-weight: bold;
+}
+.ilink:link {
+  text-decoration: none;
+  color: #ffffff;
+}
+.ilink:visited {
+  text-decoration: none;
+  color: #ffffff;
+}
+.ilink:hover {
+  text-decoration: none;
+  color: #ffffff;
+}
+.ilink:active {
+  text-decoration: none;
+  color: #ffffff;
+}
+.monthLink:link {
+  text-decoration: none;
+  color: #ffffff;
+}
+.monthLink:visited {
+  text-decoration: none;
+  color: #ffffff;
+}
+.monthLink:hover {
+  text-decoration: none;
+  color: #ffffff;
+}
+.monthLink:active {
+  text-decoration: none;
+  color: #ffffff;
+}
+.monthLinkS:link {
+  text-decoration: none;
+  color: #555555;
+}
+.monthLinkS:visited {
+  text-decoration: none;
+  color: #555555;
+}
+.monthLinkS:hover {
+  text-decoration: none;
+  color: #555555;
+}
+.monthLinkS:active {
+  text-decoration: none;
+  color: #555555;
+}
+.smallCalendar tr.weekShow:hover {
+  background-color: #E3E9FF !important;
   cursor: pointer;
-  -webkit-user-select: none;
-  /* Chrome/Safari */
-  -moz-user-select: none;
-  /* Firefox */
-  -ms-user-select: none;
-  /* IE10+ */
 }
-.cal1 .clndr .clndr-controls .clndr-control-button .clndr-next-button:hover {
-  background: #ddd;
-}
-.cal1 .clndr .clndr-controls .clndr-control-button .clndr-next-button.inactive {
-  opacity: 0.5;
-}
-.cal1 .clndr .clndr-controls .clndr-control-button .clndr-next-button.inactive:hover {
-  background: none;
-  cursor: default;
-}
-.cal1 .clndr .clndr-controls .clndr-control-button .clndr-previous-button {
-  cursor: pointer;
-  -webkit-user-select: none;
-  /* Chrome/Safari */
-  -moz-user-select: none;
-  /* Firefox */
-  -ms-user-select: none;
-  /* IE10+ */
-}
-.cal1 .clndr .clndr-controls .clndr-control-button .clndr-previous-button:hover {
-  background: #ddd;
-}
-.cal1 .clndr .clndr-controls .clndr-control-button .clndr-previous-button.inactive {
-  opacity: 0.5;
-}
-.cal1 .clndr .clndr-controls .clndr-control-button .clndr-previous-button.inactive:hover {
-  background: none;
-  cursor: default;
-}
-.cal1 .clndr .clndr-table {
-  table-layout: fixed;
+.bigCalTable {
   width: 100%;
+  border-bottom: 1px solid #4D96EA;
+  border-left: 1px solid #4D96EA;
 }
-.cal1 .clndr .clndr-table .header-days {
-  height: 40px;
-  font-size: 10px;
-  background: #c6b000;
-  font-family: 'ubunturegular', sans-serif;
-  font-size: .7em;
+.weekViewTable {
+  width: 100%;
+  border-bottom: 1px solid #4D96EA;
+  border-left: 1px solid #4D96EA;
 }
-.cal1 .clndr .clndr-table .header-days .header-day {
-  vertical-align: middle;
+.weekViewTable .weekViewClock {
+  width: 5%;
   text-align: center;
-  border-left: 1px solid #ffffff;
-  border-top: 1px solid #ffffff;
-  color: #fff;
-}
-.cal1 .clndr .clndr-table .header-days .header-day:last-child {
-  border-right: 1px solid #ffffff;
-}
-.cal1 .clndr .clndr-table tr {
-  height: 65px;
-}
-.cal1 .clndr .clndr-table tr td {
   vertical-align: top;
+  border-top: 1px solid #4D96EA;
+  border-right: 1px solid #4D96EA;
+  font-size: 10px;
 }
-.cal1 .clndr .clndr-table tr .day {
-  border-left: 1px solid #ffffff;
-  border-top: 1px solid #ffffff;
+.weekViewTable .weekViewDayClickClass {
+  border-top: 1px solid #4D96EA;
+  border-right: 1px solid #4D96EA;
+}
+.dayViewTable {
   width: 100%;
-  height: inherit;
-  background-color: #ededed;
+  border-bottom: 1px solid #4D96EA;
+  border-left: 1px solid #4D96EA;
 }
-.cal1 .clndr .clndr-table tr .day:hover {
-  background: #eee;
+.dayViewTable .dayViewClock {
+  width: 5%;
+  text-align: center;
+  vertical-align: top;
+  border-top: 1px solid #4D96EA;
+  border-right: 1px solid #4D96EA;
+  font-size: 10px;
 }
-.cal1 .clndr .clndr-table tr .day.today,
-.cal1 .clndr .clndr-table tr .day.my-today {
-  background: #008e58;
+.dayViewTable .dayViewDayClickClass2 {
+  width: 100%;
+  border-top: 1px solid #4D96EA;
+  border-right: 1px solid #4D96EA;
 }
-.cal1 .clndr .clndr-table tr .day.today:hover,
-.cal1 .clndr .clndr-table tr .day.my-today:hover {
-  background: #008e58;
+.bigCalTable td {
+  border-top: 1px solid #4D96EA;
+  border-right: 1px solid #4D96EA;
 }
-.cal1 .clndr .clndr-table tr .day.today.event,
-.cal1 .clndr .clndr-table tr .day.my-today.event {
-  background: #a7dbc1;
+.bigCalToday {
+  color: red !important;
+  background-color: #FFF7D7;
 }
-.cal1 .clndr .clndr-table tr .day.event,
-.cal1 .clndr .clndr-table tr .day.my-event {
-  background-color: #fff;
+.bigCalDay {
+  background-color: #EFEFEF !important;
 }
-.cal1 .clndr .clndr-table tr .day.event:hover,
-.cal1 .clndr .clndr-table tr .day.my-event:hover {
-  background: #008e58;
-}
-.cal1 .clndr .clndr-table tr .day.inactive,
-.cal1 .clndr .clndr-table tr .day.my-inactive {
-  background: #ddd;
-}
-.cal1 .clndr .clndr-table tr .day:last-child {
-  border-right: 1px solid #ffffff;
-}
-.cal1 .clndr .clndr-table tr .day .day-contents {
-  box-sizing: border-box;
-  padding: 28px 0;
-  font-size: 1em;
+.weekViewDayClick {
   text-align: center;
 }
-.cal1 .clndr .clndr-table tr .empty,
-.cal1 .clndr .clndr-table tr .adjacent-month,
-.cal1 .clndr .clndr-table tr .my-empty,
-.cal1 .clndr .clndr-table tr .my-adjacent-month {
-  border-left: 1px solid #ffffff;
-  border-top: 1px solid #ffffff;
+.monthViewDayClickClass {
+  color: #FFFFFF;
+  height: 18px;
+  border-top: 1px solid #4D96EA;
+  border-right: 1px solid #4D96EA;
+  background-color: #A0C2EF;
+  font-size: 13px;
+}
+.monthViewDayClick {
   width: 100%;
-  height: inherit;
-  background: #eee;
+  background-color: white;
 }
-.cal1 .clndr .clndr-table tr .empty:hover,
-.cal1 .clndr .clndr-table tr .adjacent-month:hover,
-.cal1 .clndr .clndr-table tr .my-empty:hover,
-.cal1 .clndr .clndr-table tr .my-adjacent-month:hover {
-  background: #ddd;
+.weekDaysLink {
+  color: white;
+  cursor: pointer;
+  height: 18px;
+  border-top: 1px solid #4D96EA;
+  border-right: 1px solid #4D96EA;
+  background-color: #A0C2EF;
+  font-size: 11px;
+  text-align: right;
+  padding-right: 5px;
 }
-.cal1 .clndr .clndr-table tr .empty:last-child,
-.cal1 .clndr .clndr-table tr .adjacent-month:last-child,
-.cal1 .clndr .clndr-table tr .my-empty:last-child,
-.cal1 .clndr .clndr-table tr .my-adjacent-month:last-child {
-  border-right: 1px solid #ffffff;
+.dayViewDayClickClass {
+  color: white;
+  background-color: #A0C2EF;
+  border-top: 1px solid #4D96EA;
+  border-right: 1px solid #4D96EA;
+  font-size: 11px;
+  text-align: center;
 }
-.cal1 .clndr .clndr-table tr:last-child .day,
-.cal1 .clndr .clndr-table tr:last-child .my-day {
-  border-bottom: 1px solid #ffffff;
+.dayDaysLink {
+  color: #555555;
+  cursor: pointer;
+  height: 18px;
+  background-color: #E0EDF5;
+  font-size: 12px;
+  text-align: right;
+  padding-right: 4px;
 }
-.cal1 .clndr .clndr-table tr:last-child .empty,
-.cal1 .clndr .clndr-table tr:last-child .my-empty {
-  border-bottom: 1px solid #ffffff;
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  font-family: verdana;
+  z-index: 2;
+}
+.modalBack {
+  background-image: url('../img/back6.png');
+  z-index: 1;
+}
+.modalContainer {
+  margin: 50px auto;
+  width: 0px;
+  height: 0px;
+}
+.modal .modalTop {
+  background-color: #4D96EA;
+  padding: 5px;
+  height: 24px;
+}
+.modal .modalDateToShow {
+  color: #FFFFFF;
+  float: left;
+  font-size: 16px;
+  font-weight: bold;
+  padding-top: 4px;
+  width: 464px;
+  height: 100%;
+}
+.modal .closeButton {
+  cursor: pointer;
+  height: 24px;
+  width: 24px;
+  float: left;
+  background-image: url('../img/close.png');
+}
+.modal .mainContainer {
+  margin: 20px auto;
+  width: 370px;
+  font-size: 14px;
+}
+.modal .modalTableClass {
+  margin: 20px auto;
+  width: 450px;
+  font-size: 14px;
+  height: 230px;
+  overflow: auto;
+}
+.modal .modalTable {
+  text-align: left;
+  width: 100%;
+}
+.modal .modalTable td {
+  background-color: #E0EDF5;
+  font-size: 12px;
+}
+.modal .modalTable th {
+  background-color: #A0C2EF;
+  color: white;
+}
+.event {
+  border-radius: 7px;
+  background-color: #C8DAF5;
+  border-bottom: 1px inset #AAAAAA;
+  width: 100%;
+  font-size: 10px;
+}
+.event .eventAck {
+  float: left;
+  width: 50px;
+  margin-left: 5px;
+  margin-top: 2px;
+}
+.delEvent {
+  margin-right: 3px;
+  margin-top: 3px;
+  cursor: pointer;
+  float: right;
+  width: 12px;
+  height: 12px;
+  background-repeat: no-repeat;
+  background-image: url('../img/delete.png');
+}
+.editEvent {
+  margin-right: 3px;
+  margin-top: 3px;
+  cursor: pointer;
+  float: right;
+  width: 12px;
+  height: 12px;
+  background-repeat: no-repeat;
+  background-image: url('../img/edit.png');
+}
+.monthMore {
+  float: right;
+  cursor: pointer;
+  font-size: 9px;
+  background-color: white !important;
+  border: none;
+  text-align: right;
+  color: #0063DC;
+}
+.weekMore {
+  cursor: pointer;
+  color: #0063DC;
+}
+.dayMore {
+  float: left;
+  cursor: pointer;
+  font-size: 11px;
+  background-color: white !important;
+  border: none;
+  color: #0063DC;
+}
+.glow {
+  background-color: #FEFEFE;
+  height: 100%;
+  border: 1px solid #4D96EA;
+  -moz-box-shadow: 5px 5px 10px #110011;
+  -webkit-box-shadow: 5px 5px 10px #110011;
+  box-shadow: 5px 5px 10px #110011;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=10, Direction=270, Color='#110011')";
+  filter: progid:DXImageTransform.Microsoft.Shadow(Strength=10, Direction=135, Color='#110011');
+}
+.hider {
+  display: none;
+}
+.formRow {
+  margin-top: 10px;
+}
+.formRow label {
+  display: block;
+  width: 150px;
+}
+.formRow textarea {
+  height: 120px;
+  width: 364px;
+}
+.formRow text {
+  width: 300px;
+}
+.formRowSubmit {
+  text-align: right;
+  border-top: 1px solid #B8C7F6;
+  margin-top: 10px;
+  padding-top: 10px;
+}
+.searchDiv {
+  margin-top: 10px;
+}
+.searchDiv input {
+  border: 1px solid #4D96EA;
+  border-radius: 5px 5px 5px 5px;
+  color: #666666;
+  font-family: verdana;
+  font-size: 16px;
+  height: 31px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 3px;
+  width: 138px;
 }
 /*================================================*/
 /*================  PAGE STYLES  ================*/
