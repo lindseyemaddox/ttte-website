@@ -16,26 +16,36 @@ section.recordings {
 		}
 		ul#filters {
 			li {
-				float: left;
 				list-style-type: none;
-				width: 5.7%;
-				font-size: .4em;
-				display: none;
+				font-size: 1em;
+				opacity: 0;
+				height: 0;
+				overflow: hidden;
+				&.show {
+					opacity: 1;
+					height: auto;
+					text-align: center;
+					.transition;
+					.ubuntu-regular;
+					a {
+						color: #fff;
+						text-decoration: none;
+					}
+				}
 			}
 		}
 	}
 	article {
 		width: 47.5%;
-		height: 325px;
 		margin: 0 1% 22px;
 		padding: 15px 1.55%;
 		background-color: @gold;
 		h5 {
 			.aleo-bold;
-			color: #000;
+			color: #fff;
 			text-transform: uppercase;
 			text-align: center;
-			font-size: 1.8em;
+			font-size: 1.3em;
 			font-style: normal;
 			line-height: 1em;
 			padding-bottom: 13px;
@@ -48,9 +58,9 @@ section.recordings {
 				color: #000;
 			}
 		}
-		h6.date {
-			.aleo-regular;
-			font-size: 1.3em;
+		h6 {
+			.ubuntu-regular;
+			font-size: .8em;
 			text-align: center;
 			text-transform: uppercase;
 			padding-bottom: 3px;
@@ -73,9 +83,9 @@ section.recordings {
 			}
 		}
 		img {
-			width: 30%;
+			width: 100%;
 			display: inline-block;
-			margin-left: 3%;
+			margin: 0 0 20px 0;
 		}
 		div.links {
 			display: inline-block;
@@ -84,6 +94,12 @@ section.recordings {
 		}
 		.btn {
 			font-size: 1em;
+			&.na {
+				opacity: .3;
+			}
+			&:hover {
+				background-color: @purple;
+			}
 		}
 		.link {
 			.aleo-bold;
@@ -100,4 +116,9 @@ section.recordings {
 			}
 		}
 	}
+}
+
+
+section.recording {
+	background-color: #fff;
 }

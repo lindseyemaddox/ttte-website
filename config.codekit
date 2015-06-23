@@ -684,17 +684,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/_assets\/img\/recording-heavy.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 6657,
-		"inputAbbreviatedPath": "\/_assets\/img\/recording-heavy.jpg",
-		"outputAbbreviatedPath": "\/_assets\/img\/recording-heavy.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/_assets\/img\/recording-jazz.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -724,6 +713,17 @@
 		"initialSize": 6663,
 		"inputAbbreviatedPath": "\/_assets\/img\/recording-magic.jpg",
 		"outputAbbreviatedPath": "\/_assets\/img\/recording-magic.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_assets\/img\/recording-metal.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6657,
+		"inputAbbreviatedPath": "\/_assets\/img\/recording-metal.jpg",
+		"outputAbbreviatedPath": "\/_assets\/img\/recording-metal.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -1102,6 +1102,15 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/r-winston-morris.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/recording\/ttte.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/recording\/ttte.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0

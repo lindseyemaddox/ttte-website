@@ -94,24 +94,37 @@
 
 			        		<ul id="sidebar-filters" class="option-set clearfix" data-option-key="filter">
 			          			<li><a href="#filter" data-option-value="*" class="selected">show all</a></li>
-			          			<li class="heading">By Date</li>
 			          			<li><a href="#filter" data-sort-by="date">Ascending</a></li>
 			          			<li><a href="#filter" data-sort-by="original-order">Descending</a></li>
+                      <li><a class="recording" href="#filter" data-option-value=".available">Available for Purchase</a></li>
 			          			<li class="heading">Recordings</li>
-      								<li><a class="recording" href="#filter" data-option-value=".magic">The Tubas Unlimited “Magic Tubas”</a></li>
-      								<li><a class="recording" href="#filter" data-option-value=".christmas">Christmas Tubas</a></li>
-      								<li><a class="recording" href="#filter" data-option-value=".jazz">TTTE and all that Jazz</a></li>
-      								<li><a class="recording" href="#filter" data-option-value=".legacy">Legacy</a></li>
-      								<li><a class="recording" href="#filter" data-option-value=".vintage">Vintage</a></li>
-      								<li><a class="recording" href="#filter" data-option-value=".heavy">Heavy Metal</a></li>
-      								<li><a class="recording" href="#filter" data-option-value=".phat">Phat Bottom Tubas</a></li>
-      								<li><a class="recording" href="#filter" data-option-value=".unlimited">Euphoniums Unlimited</a></li>
-      								<li><a class="recording" href="#filter" data-option-value=".carnegie">Carnegie VI</a></li>
-      								<li><a class="recording" href="#filter" data-option-value=".funky">Play That Funky Tuba Right, Boy</a></li>
-      								<li><a class="recording" href="#filter" data-option-value=".beast">Unleash The Beast</a></li>
-      								<li><a class="recording" href="#filter" data-option-value=".kings">For the Kings of Brass</a></li>
-      								<li><a class="recording" href="#filter" data-option-value=".tubalogy">Tubalogy 601</a></li>
-      								<li><a class="recording" href="#filter" data-option-value=".garbage">Pierre Garbage Festival</a></li>
+                      <li><a class="recording" href="#filter" data-option-value=".ttte">Tennessee Tech Tuba Ensemble</a></li>
+                      <li><a class="recording" href="#filter" data-option-value=".ttute">Tennessee Technological University Tuba Ensemble</a></li>
+                      <li><a class="recording" href="#filter" data-option-value=".carnegie1">Tenn Tech Tuba Ensemble Presents Their Carnegie Recital Hall Program</a></li>
+                      <li><a class="recording" href="#filter" data-option-value=".golden">The Golden Sound of Euphoniums</a></li>
+                      <li><a class="recording" href="#filter" data-option-value=".tttute">The Tennessee Technological University Tuba Ensemble</a></li>
+                      <li><a class="recording" href="#filter" data-option-value=".live">LIVE!!! The Tennessee Technological University Tuba Ensemble</a></li>
+                      <li><a class="recording" href="#filter" data-option-value=".spears">The Music of Jared Spears Volume XIV</a></li>
+                      <li><a class="recording" href="#filter" data-option-value=".jazz">Tennessee Tech Tuba Ensemble and "All That Jazz"</a></li>
+                      <li><a class="recording" href="#filter" data-option-value=".metal">Tennessee Tech Tuba Ensemble presents Heavy Metal</a></li>
+                      <li><a class="recording" href="#filter" data-option-value=".menc">Fifty-First Meeting of the Music Educators National Conference</a></li>
+                      <li><a class="recording" href="#filter" data-option-value=".beast">Unleash the Beast!!! "Not for the Faint of Heart!!!"</a></li>
+                      <li><a class="recording" href="#filter" data-option-value=".tubalogy">Tubalogy 601</a></li>
+                      <li><a class="recording" href="#filter" data-option-value=".garbage">Pierre Garbáge Festival, A Tribute To The Music of James Allen Garrett</a></li>
+                      <li><a class="recording" href="#filter" data-option-value=".kings">For the Kings of Brass</a></li>
+                      <li><a class="recording" href="#filter" data-option-value=".carnegie">CARNEGIE VI</a></li>
+                      <li><a class="recording" href="#filter" data-option-value=".funky">Play That Funky Tuba Right, Boy!</a></li>
+                      <li><a class="recording" href="#filter" data-option-value=".ludwig">LUDWIG DOES TUBA...</a></li>
+                      <li><a class="recording" href="#filter" data-option-value=".unlimited">Euphoniums Unlimited: Music for Euphonium Choir</a></li>
+                      <li><a class="recording" href="#filter" data-option-value=".phat">Phat Bottom Tubas: another program of jazz, funk, pop and drool!</a></li>
+                      <li><a class="recording" href="#filter" data-option-value=".vintage2">Tennessee Tech Tuba Ensemble presents VINTAGE - Reissuing the first two complete LP recordings by the TTTE.</a></li>
+                      <li><a class="recording" href="#filter" data-option-value=".jazz4">TENNESSEE TECH TUBA ENSEMBLE and ALL THAT JAZZ - Reissue of 4 early LPs</a></li>
+                      <li><a class="recording" href="#filter" data-option-value=".metal3">TENNESSEE TECH TUBA ENSEMBLE presents HEAVY METAL - Reissue of 3 early LPs</a></li>
+                      <li><a class="recording" href="#filter" data-option-value=".legacy">LEGACY</a></li>
+                      <li><a class="recording" href="#filter" data-option-value=".zeraim">Zeraim: seeds: The Music of Leroy Osmon, Vol. IV, Chamber Works</a></li>
+                      <li><a class="recording" href="#filter" data-option-value=".christmas">Christmas Tubas</a></li>
+                      <li><a class="recording" href="#filter" data-option-value=".magic">The Tubas Unlimited MAGIC TUBAS</a></li>
+                      <li><a class="recording" href="#filter" data-option-value=".evolutions">EVOLUTIONS (Carnegie VIII)</a></li>
       							</ul>
 
 						      </div><!--sidebar-options-->
@@ -148,29 +161,13 @@
                         // you may need to use conditional code as well.
 
                     ?>
-                    <article class="recording <?= $member['short-name']; ?> <?= $record['date-released-y']; ?>">
-                      <h5><?= $record['name']; ?></h5>
-                      <h6><?= $record['ensemble']; ?></h6>
-                      <p class="date"><?= $record['date-released']; ?></p>
-                      <p><?= $record['snippet']; ?></p>
-                      <a href="/profile/<?= $record['short-name'].'.php'?>;"  class="btn fancybox fancybox.iframe <?= (!$record['available']) ? 'na': null; ?>">Order Now</a>
+                    <article class="recording <?= $member['short-name']; ?> <?= $record['date-released-y']; ?> <?= $record['available']; ?> <?= $record['short-name']; ?>">
                       <img src="_assets/img/recording-<?= $record['short-name']; ?>.jpg">
+                      <a href="/recording/<?= $record['short-name'].'.php';?>"  class="btn fancybox fancybox.iframe">Read More</a>
                     </article>
                     <?php
                       } //endwhile
                     ?>
-
-
-                <article class="recording garbage">
-                  <h5>Pierre Garbage Festival</h5>
-                  <h6 class="date">2000</h6>
-                  <p>Tribute recordings typically contain well-known examples of a composer's body of work. One of the reasons that make the Pierre Garbage Festival recording unique is the individual and collective participation by people who were directly involved with a majority of <a href="/recordings/garbage">...read more</a></p>
-                  <div class="links">
-                    <a href="/recordings/garbage" class="link fancybox fancybox.iframe">More Information</a>
-                    <a href="#" class="btn fancybox fancybox.iframe">Order Now</a>
-                  </div><!--links-->
-                  <img src="_assets/img/recording-garbage.jpg">
-                </article>
 
 				      </div><!--recordings-->
 
@@ -195,7 +192,7 @@
       });
 
 
-      var $optionSets = $('#sidebar-options .option-set, #sidebar-options .option-set'),
+      var $optionSets = $('#options .option-set, #sidebar-options .option-set'),
           $optionLinks = $optionSets.find('a');
 
       $optionLinks.click(function(){
@@ -229,14 +226,14 @@
     });
 
     $( ".slider" ).slider({
-      value:0,
+      value: 0,
       min: 0,
       max: 40,
       step: 1,
       slide: function( event, ui ) {
         var slideVal = ui.value;
         $('.option-set li').hide();
-        $('.option-set li:eq('+slideVal+')').show();
+        $('.option-set li:eq('+slideVal+')').show().addClass('show');
       }
     });
 
