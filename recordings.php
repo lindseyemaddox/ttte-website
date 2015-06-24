@@ -230,10 +230,11 @@
       min: 0,
       max: 40,
       step: 1,
-      slide: function( event, ui ) {
-        var slideVal = ui.value;
-        $('.option-set li').hide();
-        $('.option-set li:eq('+slideVal+')').show().addClass('show');
+        slide: function( event, ui ) {
+          var slideVal = ui.value;
+          $('.option-set li:eq('+ slideVal +') a').trigger('click');
+        $('#slider-cont .option-set li').removeClass('show');
+        $('#slider-cont .option-set li:eq('+slideVal+')').addClass('show');
       }
     });
 
