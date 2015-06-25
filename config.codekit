@@ -673,6 +673,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/_assets\/img\/recording-carnegie.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 152955,
+		"inputAbbreviatedPath": "\/_assets\/img\/recording-carnegie.jpg",
+		"outputAbbreviatedPath": "\/_assets\/img\/recording-carnegie.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/_assets\/img\/recording-christmas.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -684,6 +695,39 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/_assets\/img\/recording-evolutions.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 76573,
+		"inputAbbreviatedPath": "\/_assets\/img\/recording-evolutions.jpg",
+		"outputAbbreviatedPath": "\/_assets\/img\/recording-evolutions.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_assets\/img\/recording-funky.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 80105,
+		"inputAbbreviatedPath": "\/_assets\/img\/recording-funky.jpg",
+		"outputAbbreviatedPath": "\/_assets\/img\/recording-funky.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_assets\/img\/recording-garbage.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 69370,
+		"inputAbbreviatedPath": "\/_assets\/img\/recording-garbage.jpg",
+		"outputAbbreviatedPath": "\/_assets\/img\/recording-garbage.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/_assets\/img\/recording-jazz.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -691,6 +735,17 @@
 		"initialSize": 7110,
 		"inputAbbreviatedPath": "\/_assets\/img\/recording-jazz.jpg",
 		"outputAbbreviatedPath": "\/_assets\/img\/recording-jazz.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_assets\/img\/recording-kings.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 156004,
+		"inputAbbreviatedPath": "\/_assets\/img\/recording-kings.jpg",
+		"outputAbbreviatedPath": "\/_assets\/img\/recording-kings.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -724,6 +779,28 @@
 		"initialSize": 6657,
 		"inputAbbreviatedPath": "\/_assets\/img\/recording-metal.jpg",
 		"outputAbbreviatedPath": "\/_assets\/img\/recording-metal.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_assets\/img\/recording-tubalogy.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 93997,
+		"inputAbbreviatedPath": "\/_assets\/img\/recording-tubalogy.jpg",
+		"outputAbbreviatedPath": "\/_assets\/img\/recording-tubalogy.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_assets\/img\/recording-unlimited.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 46985,
+		"inputAbbreviatedPath": "\/_assets\/img\/recording-unlimited.jpg",
+		"outputAbbreviatedPath": "\/_assets\/img\/recording-unlimited.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
