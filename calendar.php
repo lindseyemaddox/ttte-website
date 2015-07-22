@@ -2,7 +2,7 @@
 <?php require_once($_SERVER['DOCUMENT_ROOT'].'/_assets/inc/head.php'); // HTTP head?>
 <script type="text/javascript" src="/_assets/js/en.js"></script>
 <script type="text/javascript" src="/_assets/js/oCalendar.js"></script>
-<link rel="stylesheet" type="text/css" href="css/blue.css"/>
+<!-- <link rel="stylesheet" type="text/css" href="css/blue.css"/> -->
 <?php require_once($_SERVER['DOCUMENT_ROOT'].'/_assets/inc/navigation.php'); //navigation?>
 
 <section id="mast">
@@ -13,35 +13,26 @@
 <section>
 
  <div id="full-clndr" class="clearfix">
-          <script type="text/template" id="full-clndr-template">
-            <div class="clndr-controls">
-              <div class="clndr-previous-button">&lt;</div>
-              <div class="clndr-next-button">&gt;</div>
-              <div class="current-month"><%= month %> <%= year %></div>
-
+       <script type="text/template" id="template-calendar">
+        <div class="clndr-controls">
+          <div class="clndr-previous-button">&lsaquo;</div>
+          <div class="month"><%= month %></div>
+          <div class="clndr-next-button">&rsaquo;</div>
+        </div>
+        <div class="clndr-grid">
+          <div class="days-of-the-week">
+            <% _.each(daysOfTheWeek, function(day) { %>
+              <div class="header-day"><%= day %></div>
+            <% }); %>
+            <div class="days">
+              <% _.each(days, function(day) { %>
+                <div class="<%= day.classes %>"><%= day.day %></div>
+              <% }); %>
             </div>
-            <div class="clndr-table">
-              <div class="days-of-the-week clearfix">
-                <% _.each(daysOfTheWeek, function(day) { %>
-                  <div class="header-day"><%= day %></div>
-                <% }); %>
-              </div>
-              <div class="days">
-                <% _.each(days, function(day) { %>
-                  <div class="<%= day.classes %>" id="<%= day.id %>"><span class="day-number"><%= day.day %></span></div>
-                <% }); %>
-              </div>
-            </div>
-            <div class="event-listing">
-              <div class="event-listing-title">EVENTS THIS MONTH</div>
-              <% _.each(eventsThisMonth, function(event) { %>
-                  <div class="event-item">
-                    <div class="event-item-name"><%= event.title %></div>
-                    <div class="event-item-location"><%= event.location %></div>
-                  </div>
-                <% }); %>
-            </div>
-            </script>
+          </div>
+        </div>
+        <div class="clndr-today-button">Today</div>
+      </script>
    </section>
 <section id="main" class="calendar">
 
@@ -50,7 +41,7 @@
 		<h1>Calendar of Events</h1>
 
     	<div class="cal1"></div>
-    	<div id="calendar"></div>
+    	<div id="full-clndr"></div>
 
 		<h6><a href="#">download printable calendar</a> | <a href="#">import calendar to iCal</a> | <a href="#">import calendar to Outlook</a></h6>
 
@@ -73,24 +64,24 @@
     { date: currentMonth + '-' + '23', title: 'Kitten Demonstration', location: 'Center for Beautiful Cats' },
     { date: nextMonth + '-' + '07',    title: 'Small Cat Photo Session', location: 'Center for Cat Photography' }
   ];
-<script>
-$("#calendar").oCalendar({
-    width: 500,
-    height:650,
-    useAbbr:true,
-    startDay:1,
-    allowCud: false,
-    url:"/remote.php"
-}); 
-</script>
+  console.log('EVENT',events[3].date);
+
+// $("#calendar").oCalendar({
+//     width: 500,
+//     height:650,
+//     useAbbr:true,
+//     startDay:1,
+//     allowCud: false,
+//     url:"/remote.php"
+// }); 
 
   $('#full-clndr').clndr({
     template: $('#full-clndr-template').html(),
     events: events,
     forceSixRows: true
   });
-  console.log(events.date);
-  });</script>
+  })();
+  </script>
  <script src="/_assets/js/site.js"></script>
   <!-- Enable live-reloading in the browser without an extension
   <script src="http://localhost:35729/livereload.js"></script>
