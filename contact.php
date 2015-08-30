@@ -46,7 +46,6 @@
 			        <label for='email'>Email</label><input type='text' name='email' id='email' size='10'>
 		    		<label for='desc'>How May We Help You?</label>
 			        <textarea name='desc' id='desc' size='10'></textarea>
-			        <div class='g-recaptcha' data-sitekey='6LfkjAcTAAAAAHfO91wweRuIpQivgLouAMLHyXt_'></div>
 			        <button class='submit btn' type='submit' name='submit'>Send Form</button>
 		      </form>";
 		      }

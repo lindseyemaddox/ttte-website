@@ -1,5 +1,5 @@
 <?php require_once($_SERVER['DOCUMENT_ROOT'].'/_assets/inc/head.php'); // HTTP head?>
-<script type="text/javascript" src="/_assets/js/flexslider.jquery.js"></script>
+<script type="text/javascript" src="/_assets/js/min/flexslider.jquery-min.js"></script>
 <?php require_once($_SERVER['DOCUMENT_ROOT'].'/_assets/inc/navigation.php'); //navigation?>
 
 <section class="slider">
