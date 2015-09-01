@@ -6,7 +6,6 @@
   
     $('div.jflatTimeline').jflatTimeline({
                 scroll : '2',    //max dates scrolling per arrow click
-                width : '60%', //width; It can also be done with css. - .jflatTimeline{width : x%;}
                 scrollingTime : '300' // scrolling time
               });
   })
@@ -25,62 +24,196 @@
 	
 		<h1>Calendar of Events</h1>
 
-  <div class="jflatTimeline">
+    <div class="jflatTimeline">
 
-    <div class="timeline-wrap">
-        
-      <div class="event selected" data-date="03/9/2013"> <!-- BEGIN EVENT. DATE FORMAT - MM/DD/YYYY -->
-        <div class="layout1"> <!-- BEGIN 'LAYOUT1' -->
-          <div class="left">
-            <img src="/_assets/img/1.jpg" alt="image alt"/>
+      <div class="timeline-wrap">
+          
+        <div class="event selected" data-date="09/20/2015"> <!-- MM/DD/YYYY -->
+          <div class="layout1">
+            <div class="left">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3220.5441226692215!2d-85.50475195!3d36.1776466!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88672209f5236309%3A0x7484dec29c9634dd!2sBryan+Fine+Arts+Bldg%2C+Cookeville%2C+TN+38501!5e0!3m2!1sen!2sus!4v1441036261579" width="100%" height="440" frameborder="0" style="border:0" allowfullscreen></iframe>
+            </div>
+            <div class="right">
+              <h3>September 20, 1:00pm</h3>
+              <h4>Awards Ceremony with the Honors Tuba/Euphonium Trio</h4>
+              <p>Tyler Ricks, euphonium</p>
+              <p>Brian Rippy and Travis Roberson, tubas</p>
+            </div>
           </div>
-          <div class="right">
-            <h3>This is Layout 1</h3>
-            <p>Some text goes here...</p>
-          </div>
-        </div>
-        <span class="date"><i class="icon-calendar"></i>09.03.2013</span>
-      </div><!-- END EVENT -->
-    
-      <div class="event" data-date="03/11/2013">
-        <div class="layout2"> <!-- BEGIN 'LAYOUT2' -->
-          <div class="left">
-            <h3>This is Layout 2</h3>
-            <p>Some text goes here...</p>
-          </div>
-          <div class="right">
-            <img src="/_assets/img/1.jpg" alt="image alt"/>
-          </div>
-        </div>
-        <span class="date"><i class="icon-calendar"></i>11.03.2013</span>
-      </div>      
+          <span class="date"><i class="icon-calendar"></i>09.20.2015</span>
+        </div><!-- END EVENT -->
       
+        <div class="event" data-date="09/27/2015"> <!-- MM/DD/YYYY -->
+          <div class="layout1">
+            <div class="left">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3233.145482517961!2d-84.0959626!3d35.8699515!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x885c25f737045f35%3A0x88a4247306ab32e7!2sCornerstone+Church+of+Knoxville!5e0!3m2!1sen!2sus!4v1441038403763" width="100%" height="440" frameborder="0" style="border:0" allowfullscreen></iframe>
+            </div>
+            <div class="right">
+              <h3>September 27, 3:30pm (note: time is Eastern time zone)</h3>
+              <h4>Kelly Thomas Memorial Concert</h4>
+              <p>with the Southern Stars Symphonic Brass band and the Tenn Tech Tuba Octet</p>
+              <p>Cornerstone Church of Knoxville</p>
+              <p>1250 Heritage Lake Boulevard, Knoxville, Tennessee</p>
+            </div>
+          </div>
+          <span class="date"><i class="icon-calendar"></i>09.27.2015</span>
+        </div><!-- END EVENT -->
       
-      <div class="event" data-date="04/06/2013">
-        <div class="layout3"> <!-- BEGIN 'LAYOUT3' -->
-          <img src="/_assets/img/3.jpg" alt="image alt"/>
-          <h3>This is Layout 3</h3>
-          <p>Some text goes here...</p> 
-        </div>
-        <span class="date"><i class="icon-calendar"></i>06.04.2013</span>
-      </div>      
+        <div class="event" data-date="10/01/2015"> <!-- MM/DD/YYYY -->
+          <div class="layout1">
+            <div class="left">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3220.5441226692215!2d-85.50475195!3d36.1776466!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88672209f5236309%3A0x7484dec29c9634dd!2sBryan+Fine+Arts+Bldg%2C+Cookeville%2C+TN+38501!5e0!3m2!1sen!2sus!4v1441036261579" width="100%" height="440" frameborder="0" style="border:0" allowfullscreen></iframe>
+            </div>
+            <div class="right">
+              <h3>October 1, 7:30pm</h3>
+              <h4>Brass Arts Quintet</h4>
+              <p>Jesse Chavez, tuba</p>
+            </div>
+          </div>
+          <span class="date"><i class="icon-calendar"></i>10.01.2015</span>
+        </div><!-- END EVENT -->
       
-      <div class="event" data-date="04/09/2013">
-        <div class="layout4"> <!-- BEGIN 'LAYOUT4' -->
-          <h3>This is Layout 4</h3>
-          <p>Some text goes here...</p>
-        </div>
-        <span class="date"><i class="icon-calendar"></i>09.04.2013</span>
-      </div>
-            
-      <div class="event" data-date="07/08/2013">
-        <div class="layout5"> <!-- BEGIN 'LAYOUT5' -->
-          <h3>Simple Mini Event Layout 5</h3>   
-        </div>
-        <span class="date"><i class="icon-calendar"></i>08.07.2013</span>
-      </div>
-    </div>  
-  </div>
+        <div class="event" data-date="10/23/2015"> <!-- MM/DD/YYYY -->
+          <div class="layout1">
+            <div class="left">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3220.5441226692215!2d-85.50475195!3d36.1776466!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88672209f5236309%3A0x7484dec29c9634dd!2sBryan+Fine+Arts+Bldg%2C+Cookeville%2C+TN+38501!5e0!3m2!1sen!2sus!4v1441036261579" width="100%" height="440" frameborder="0" style="border:0" allowfullscreen></iframe>
+            </div>
+            <div class="right">
+              <h3>October 23, 6:00-10:00pm</h3>
+              <h4>Octubafest 2015</h4>
+            </div>
+          </div>
+          <span class="date"><i class="icon-calendar"></i>10.23.2015</span>
+        </div><!-- END EVENT -->
+      
+        <div class="event" data-date="10/24/2015"> <!-- MM/DD/YYYY -->
+          <div class="layout1">
+            <div class="left">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3220.5441226692215!2d-85.50475195!3d36.1776466!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88672209f5236309%3A0x7484dec29c9634dd!2sBryan+Fine+Arts+Bldg%2C+Cookeville%2C+TN+38501!5e0!3m2!1sen!2sus!4v1441036261579" width="100%" height="440" frameborder="0" style="border:0" allowfullscreen></iframe>
+            </div>
+            <div class="right">
+              <h3>October 24, 5:00-10:00pm</h3>
+              <h4>Octubafest 2015</h4>
+            </div>
+          </div>
+          <span class="date"><i class="icon-calendar"></i>10.24.2015</span>
+        </div><!-- END EVENT -->
+      
+        <div class="event" data-date="10/25/2015"> <!-- MM/DD/YYYY -->
+          <div class="layout1">
+            <div class="left">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3220.5441226692215!2d-85.50475195!3d36.1776466!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88672209f5236309%3A0x7484dec29c9634dd!2sBryan+Fine+Arts+Bldg%2C+Cookeville%2C+TN+38501!5e0!3m2!1sen!2sus!4v1441036261579" width="100%" height="440" frameborder="0" style="border:0" allowfullscreen></iframe>
+            </div>
+            <div class="right">
+              <h3>October 25, 1:00-6:00pm</h3>
+              <h4>Octubafest 2015</h4>
+            </div>
+          </div>
+          <span class="date"><i class="icon-calendar"></i>10.25.2015</span>
+        </div><!-- END EVENT -->
+      
+        <div class="event" data-date="10/26/2015"> <!-- MM/DD/YYYY -->
+          <div class="layout1">
+            <div class="left">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3220.5441226692215!2d-85.50475195!3d36.1776466!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88672209f5236309%3A0x7484dec29c9634dd!2sBryan+Fine+Arts+Bldg%2C+Cookeville%2C+TN+38501!5e0!3m2!1sen!2sus!4v1441036261579" width="100%" height="440" frameborder="0" style="border:0" allowfullscreen></iframe>
+            </div>
+            <div class="right">
+              <h3>October 26, 6:00-10:00pm</h3>
+              <h4>Octubafest 2015</h4>
+            </div>
+          </div>
+          <span class="date"><i class="icon-calendar"></i>10.26.2015</span>
+        </div><!-- END EVENT -->
+      
+        <div class="event" data-date="10/30/2015"> <!-- MM/DD/YYYY -->
+          <div class="layout1">
+            <div class="left">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3220.5441226692215!2d-85.50475195!3d36.1776466!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88672209f5236309%3A0x7484dec29c9634dd!2sBryan+Fine+Arts+Bldg%2C+Cookeville%2C+TN+38501!5e0!3m2!1sen!2sus!4v1441036261579" width="100%" height="440" frameborder="0" style="border:0" allowfullscreen></iframe>
+            </div>
+            <div class="right">
+              <h3>October 30, 6:00-10:00pm</h3>
+              <h4>TENNESSEE TECH TUBA ENSEMBLE in concert</h4>
+              <p>featuring the Arrangements/Transcriptions of David Butler</p>
+            </div>
+          </div>
+          <span class="date"><i class="icon-calendar"></i>10.30.2015</span>
+        </div><!-- END EVENT -->
+      
+        <div class="event" data-date="10/31/2015"> <!-- MM/DD/YYYY -->
+          <div class="layout1">
+            <div class="left">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3220.5441226692215!2d-85.50475195!3d36.1776466!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88672209f5236309%3A0x7484dec29c9634dd!2sBryan+Fine+Arts+Bldg%2C+Cookeville%2C+TN+38501!5e0!3m2!1sen!2sus!4v1441036261579" width="100%" height="440" frameborder="0" style="border:0" allowfullscreen></iframe>
+            </div>
+            <div class="right">
+              <h3>October 31, 1:00-10:00pm</h3>
+              <h4>Octubafest 2015</h4>
+            </div>
+          </div>
+          <span class="date"><i class="icon-calendar"></i>10.31.2015</span>
+        </div><!-- END EVENT -->
+      
+        <div class="event" data-date="11/20/2015"> <!-- MM/DD/YYYY -->
+          <div class="layout1">
+            <div class="left">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3220.5441226692215!2d-85.50475195!3d36.1776466!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88672209f5236309%3A0x7484dec29c9634dd!2sBryan+Fine+Arts+Bldg%2C+Cookeville%2C+TN+38501!5e0!3m2!1sen!2sus!4v1441036261579" width="100%" height="440" frameborder="0" style="border:0" allowfullscreen></iframe>
+            </div>
+            <div class="right">
+              <h3>November 20, ALL DAY</h3>
+              <h4>All Star Instrumental SYMPOSIUM</h4>
+              <p>Tenn Tech Tuba Ensemble at 1:00pm</p>
+            </div>
+          </div>
+          <span class="date"><i class="icon-calendar"></i>11.20.2015</span>
+        </div><!-- END EVENT -->
+      
+        <div class="event" data-date="12/01/2015"> <!-- MM/DD/YYYY -->
+          <div class="layout1">
+            <div class="left">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d51393.87016951739!2d-86.4692915!3d36.382164350000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88643070c54dccc3%3A0x84909f497fdf9663!2sGallatin%2C+TN!5e0!3m2!1sen!2sus!4v1441039433750" width="100%" height="440" frameborder="0" style="border:0" allowfullscreen></iframe>
+            </div>
+            <div class="right">
+              <h3>December 1, Time TBD</h3>
+              <h4>CHRISTMAS TUBAS</h4>
+              <p>Gallatin TN</p>
+            </div>
+          </div>
+          <span class="date"><i class="icon-calendar"></i>12.01.2015</span>
+        </div><!-- END EVENT -->
+      
+        <div class="event" data-date="12/02/2015"> <!-- MM/DD/YYYY -->
+          <div class="layout1">
+            <div class="left">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3220.5441226692215!2d-85.50475195!3d36.1776466!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88672209f5236309%3A0x7484dec29c9634dd!2sBryan+Fine+Arts+Bldg%2C+Cookeville%2C+TN+38501!5e0!3m2!1sen!2sus!4v1441036261579" width="100%" height="440" frameborder="0" style="border:0" allowfullscreen></iframe>
+            </div>
+            <div class="right">
+              <h3>December 2, 7:30pm</h3>
+              <h4>Brass Arts Quintet</h4>
+              <p>Jesse Chavez, tuba</p>
+            </div>
+          </div>
+          <span class="date"><i class="icon-calendar"></i>12.02.2015</span>
+        </div><!-- END EVENT -->
+      
+        <div class="event" data-date="12/04/2015"> <!-- MM/DD/YYYY -->
+          <div class="layout1">
+            <div class="left">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d103356.923814095!2d-85.03482650000001!3d35.9493215!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x886750c6efe64361%3A0x4f88757102b59521!2sCrossville%2C+TN!5e0!3m2!1sen!2sus!4v1441039690150" width="100%" height="440" frameborder="0" style="border:0" allowfullscreen></iframe>
+            </div>
+            <div class="right">
+              <h3>December 4, Time TBD</h3>
+              <h4>CHRISTMAS TUBAS</h4>
+              <p>Crossville, Tennessee</p>
+            </div>
+          </div>
+          <span class="date"><i class="icon-calendar"></i>12.04.2015</span>
+        </div><!-- END EVENT -->
+      
+      </div>  
+    </div>
+
+    <p>Events, except where indicated, are in Wattenbarger Auditorium in the Bryan Fine Arts Building on the Tennessee Tech Campus in Cookeville, Tennessee. Unless otherwise noted, all events are free, open to the public and everyone is invited.</p>
+    <p>Before traveling any distance confirm event with the tuba studio: (931-372-3168)</p>
+    <p>Additional information will be posted as it becomes available.  Please check back.</p>
 
 		<!-- <h6><a href="#">download printable calendar</a> | <a href="#">import calendar to iCal</a> | <a href="#">import calendar to Outlook</a></h6> -->
 
