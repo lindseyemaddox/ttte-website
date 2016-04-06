@@ -3,7 +3,8 @@ body {
 }
 
 .inner {
-	max-width: 1207px;
+	max-width: 1000px;
+	width: 80%;
 	margin: 0 auto;
 }
 
@@ -94,16 +95,17 @@ p {
 }
 
 .btn {
-	background-color: @purple;
+	background-color: transparent;
 	display: block;
 	margin: 5px auto;
 	padding: 12px 0 7px;
 	color: #fff;
 	text-transform: uppercase;
 	.ubuntu-bold;
-	font-size: 2em;
+	font-size: 1em;
 	text-align: center;
-	.border-radius(3px);
+	.border-radius(2px);
+	border: 2px solid #fff;
 	text-decoration: none;
 	&:hover {
 		background-color: @green;

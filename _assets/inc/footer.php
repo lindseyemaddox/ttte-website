@@ -4,9 +4,9 @@
 			<section class="top">
 
 				<div class="inner">
-				
+
 					<div class="links1">
-						
+
 						<ul>
 							<li><a href="/">Home</a></li>
 							<li><a href="/r-winston-morris.php">R. Winston Morris</a></li>
@@ -20,23 +20,23 @@
 					</div><!--links1-->
 
 					<div class="links2">
-						
+
 						<ul>
-							<li class="heading">Off-site Links</li>
-							<li><a href="/">tuba link</a></li>
-							<li><a href="/">tuba link</a></li>
-							<li><a href="/">tuba link</a></li>
-							<li><a href="/">tuba link</a></li>
-							<li><a href="/">tuba link</a></li>
-							<li><a href="/">tuba link</a></li>
+							<li class="heading">Friends</li>
+							<li><a href="http://www.iteaonline.org/index.php" target="_blank">International Tuba Euphonium Association</a></li>
+							<li><a href="http://myiwbc.org/" target="_blank">Internation Women's Brass Conference</a></li>
+							<li><a href="http://www.historicbrass.org/" target="_blank">Historic Brass Society</a></li>
+							<li><a href="http://www.ita-web.org/" target="_blank">International Trombone Association</a></li>
+							<li><a href="http://www.trumpetguild.org/" target="_blank">International Trumpet Guild</a></li>
+							<li><a href="http://www.hornsociety.org/" target="_blank">International Horn Society</a></li>
 						</ul>
 
 					</div><!--links2-->
 
 					<div class="links3">
-						
+
 						<ul>
-							<li class="heading">TTU Links</li>
+							<li class="heading">TTU</li>
 							<li><a href="https://www.tntech.edu/" target="_blank">Tennessee Technological University</a></li>
 							<li><a href="https://www.tntech.edu/education/" target="_blank">College of Education</a></li>
 							<li><a href="https://www.tntech.edu/education/music/" target="_blank">Department of Music</a></li>
@@ -48,7 +48,7 @@
 					</div><!--links3-->
 
 					<div class="links4">
-						
+
 						<p>Tennessee Tech University<br/>
 						1 William L Jones Dr<br/>
 						Cookeville, TN 38505</p>
@@ -67,7 +67,7 @@
 			</section><!--top-->
 
 			<section class="middle">
-				
+
 				<div class="facebook"><img src="/_assets/img/facebook.jpg" alt="Facebook logo" title="Facebook logo"></div>
 
 			</section><!--middle-->

@@ -1,7 +1,7 @@
 @charset "UTF-8";
 /* Eric Meyer's reset
-	http://meyerweb.com/eric/tools/css/reset/ 
-	v2.0b1 | 201101 
+	http://meyerweb.com/eric/tools/css/reset/
+	v2.0b1 | 201101
 	NOTE: WORK IN PROGRESS
 	USE WITH CAUTION AND TEST WITH ABANDON */
 /* Use this reset as a starting point, and customize to your needs */
@@ -136,7 +136,7 @@ q:after {
   content: '';
   content: none;
 }
-/* remember to define visible focus styles! 
+/* remember to define visible focus styles!
 :focus {
 	outline: ?????;
 } */
@@ -279,12 +279,6 @@ svg:not(:root) {
 .browsehappy a {
   color: yellow;
   text-decoration: underline;
-}
-.browsehappyimg {
-  z-index: 999999999999999;
-  position: absolute;
-  left: 48%;
-  top: 12%;
 }
 /* ==|== print styles =======================================================
    Print styles.
@@ -429,11 +423,55 @@ section {
   font-weight: normal;
   font-style: normal;
 }
+@font-face {
+  font-family: 'icomoon';
+  src: url('/_assets/fonts/icomoon.eot?1uu8fd');
+  src: url('/_assets/fonts/icomoon.eot?1uu8fd#iefix') format('embedded-opentype'), url('/_assets/fonts/icomoon.ttf?1uu8fd') format('truetype'), url('/_assets/fonts/icomoon.woff?1uu8fd') format('woff'), url('/_assets/fonts/icomoon.svg?1uu8fd#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+[class^="icon-"],
+[class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  color: #fff;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-anchor:before {
+  content: "\e900";
+}
+.icon-article:before {
+  content: "\e901";
+}
+.icon-audio:before {
+  content: "\e902";
+}
+.icon-book:before {
+  content: "\e903";
+}
+.icon-shirt:before {
+  content: "\e904";
+}
+.icon-video:before {
+  content: "\e905";
+}
+.icon-website:before {
+  content: "\e906";
+}
 body {
   -webkit-font-smoothing: antialiased;
 }
 .inner {
-  max-width: 1207px;
+  max-width: 1000px;
+  width: 80%;
   margin: 0 auto;
 }
 h1 {
@@ -519,18 +557,19 @@ p {
   padding-bottom: 46px;
 }
 .btn {
-  background-color: #434dae;
+  background-color: transparent;
   display: block;
   margin: 5px auto;
   padding: 12px 0 7px;
   color: #fff;
   text-transform: uppercase;
   font-family: 'ubuntubold', sans-serif;
-  font-size: 2em;
+  font-size: 1em;
   text-align: center;
-  -webkit-border-radius: 3px;
-  -moz-border-radius: 3px;
-  border-radius: 3px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  border: 2px solid #fff;
   text-decoration: none;
 }
 .btn:hover {
@@ -581,25 +620,25 @@ footer section.top {
 }
 footer section.top .links1 {
   display: inline-block;
-  width: 22%;
+  width: 21%;
   margin-right: 3%;
   vertical-align: top;
 }
 footer section.top .links2 {
   display: inline-block;
-  width: 22%;
+  width: 27%;
   margin-right: 3%;
   vertical-align: top;
 }
 footer section.top .links3 {
   display: inline-block;
-  width: 22%;
+  width: 23%;
   margin-right: 3%;
   vertical-align: top;
 }
 footer section.top .links4 {
   display: inline-block;
-  width: 24%;
+  width: 18%;
   vertical-align: top;
 }
 footer section.top li {
@@ -1448,23 +1487,27 @@ section.slider div.flexslider li img {
 }
 section#intro {
   position: relative;
-  background-color: #c6b000;
+  background-color: #1f1f1f;
+}
+section#intro .inner {
+  position: relative;
 }
 section#intro div#text {
-  padding: 33px 0 33px 45%;
+  padding: 50px 0 50px 55%;
 }
 section#intro div#text h1 {
   font-family: 'ubunturegular', sans-serif;
-  font-size: 1.6em;
-  line-height: 1.25em;
+  font-size: 1.2em;
+  line-height: 1.8em;
   text-align: left;
+  padding-bottom: 0;
 }
 section#intro div#text h1 a {
-  color: #fff;
-  text-decoration: underline;
+  color: #c6b000;
+  text-decoration: none;
 }
 section#intro div#text h1 a:hover {
-  color: #434dae;
+  text-decoration: underline;
   -webkit-transition: all 400ms ease;
   -moz-transition: all 400ms ease;
   -o-transition: all 400ms ease;
@@ -1474,7 +1517,7 @@ section#intro div#text h1 a:hover {
 section#intro div#rwm {
   position: absolute;
   bottom: 0;
-  left: 5%;
+  left: -9%;
   z-index: 1;
 }
 section#intro div#rwm img {
@@ -1489,62 +1532,115 @@ section#infoBoxes article.box {
   vertical-align: top;
   width: 30%;
   margin: 0 1.5% 30px;
-  padding: 20px 2%;
-  background: url(/_assets/img/pattern-yellow.png) repeat left top transparent;
-  min-height: 636px;
   position: relative;
 }
-section#infoBoxes article.box img {
+section#infoBoxes article.box:hover .retro,
+section#infoBoxes article.box:hover .euphonium-source,
+section#infoBoxes article.box:hover .tuba-source,
+section#infoBoxes article.box:hover .carnegie,
+section#infoBoxes article.box:hover .profundo,
+section#infoBoxes article.box:hover .merch,
+section#infoBoxes article.box:hover .npr,
+section#infoBoxes article.box:hover .book,
+section#infoBoxes article.box:hover .titan,
+section#infoBoxes article.box:hover .alumni {
+  opacity: 1;
+}
+section#infoBoxes article.box:hover .heading-container {
+  opacity: .1;
+  top: 30px;
+}
+section#infoBoxes article.box:hover .btn {
+  background-color: #008e58;
+  bottom: 30px;
+}
+section#infoBoxes article.box .img {
   width: 100%;
-  margin-bottom: 10px;
-}
-section#infoBoxes article.box h3 {
-  text-align: center;
-  font-family: 'aleobold', serif;
-  color: #000;
-  text-transform: uppercase;
-  font-size: 1.8em;
-  line-height: 1em;
-  margin-bottom: 10px;
-  white-space: inherit;
-}
-section#infoBoxes article.box h4 {
-  font-family: 'ubuntumedium', sans-serif;
-  font-size: 2em;
-  line-height: 1.2em;
-  color: #000;
-  text-align: center;
-  margin-bottom: 10px;
-}
-section#infoBoxes article.box h5 {
-  font-family: 'ubuntumedium_italic', sans-serif;
-  font-size: 2.6666666666666665em;
-  margin: 10px 0;
-}
-section#infoBoxes article.box h6 {
-  font-family: 'ubunturegular', sans-serif;
-  font-size: 1.6666666666666667em;
-  line-height: 1.5em;
-  text-align: center;
-  color: #000;
-  text-transform: none;
-}
-section#infoBoxes article.box h6 a {
-  text-decoration: underline;
-  color: #000;
-}
-section#infoBoxes article.box h6 a:hover {
-  color: #008e58;
+  height: 280px;
+  opacity: .3;
+  border: 2px solid #fff;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
   -webkit-transition: all 400ms ease;
   -moz-transition: all 400ms ease;
   -o-transition: all 400ms ease;
   -ms-transition: all 400ms ease;
   transition: all 400ms ease;
 }
+section#infoBoxes article.box .retro {
+  background: url(/_assets/img/book-ttte.jpg) no-repeat center center transparent;
+}
+section#infoBoxes article.box .euphonium-source {
+  background: url(/_assets/img/book-euphonium-source-book.jpg) no-repeat center center transparent;
+}
+section#infoBoxes article.box .tuba-source {
+  background: url(/_assets/img/book-guide-to-the-tuba-repertoire.jpg) no-repeat center center transparent;
+}
+section#infoBoxes article.box .carnegie {
+  background: url(/_assets/img/carnegie-bound.jpg) no-repeat center center transparent;
+}
+section#infoBoxes article.box .profundo {
+  background: url(/_assets/img/tuba-u-basso-profundo.jpg) no-repeat center center transparent;
+}
+section#infoBoxes article.box .merch {
+  background: url(/_assets/img/ttte-merchandise.jpg) no-repeat center center transparent;
+}
+section#infoBoxes article.box .npr {
+  background: url(/_assets/img/logo-npr.jpg) no-repeat center center transparent;
+}
+section#infoBoxes article.box .book {
+  background: url(/_assets/img/article-new-book.jpg) no-repeat center center transparent;
+}
+section#infoBoxes article.box .titan {
+  background: url(/_assets/img/logo-american-profile.png) no-repeat center center transparent;
+}
+section#infoBoxes article.box .alumni {
+  background: url(/_assets/img/german-band.jpg) no-repeat center center transparent;
+  background-size: cover;
+}
+section#infoBoxes article.box .heading-container {
+  -webkit-transition: all 400ms ease;
+  -moz-transition: all 400ms ease;
+  -o-transition: all 400ms ease;
+  -ms-transition: all 400ms ease;
+  transition: all 400ms ease;
+  width: 80%;
+  margin: 0 10%;
+  position: absolute;
+  top: 20px;
+  padding: 20px;
+  opacity: 1;
+}
+section#infoBoxes article.box .heading-container span {
+  display: block;
+  text-align: center;
+  font-size: 4em;
+  margin-bottom: 10px;
+}
+section#infoBoxes article.box h3 {
+  text-align: center;
+  font-family: 'aleobold', serif;
+  color: #fff;
+  font-size: 1.3em;
+  line-height: 1.2em;
+  margin-bottom: 10px;
+  white-space: inherit;
+}
 section#infoBoxes article.box .btn {
+  width: 80%;
+  margin: 0 10%;
   position: absolute;
   bottom: 20px;
-  width: 87%;
+  -webkit-transition: all 400ms ease;
+  -moz-transition: all 400ms ease;
+  -o-transition: all 400ms ease;
+  -ms-transition: all 400ms ease;
+  transition: all 400ms ease;
+}
+section#infoBoxes article.box .btn:hover {
+  background-color: #fff;
+  color: #008e58;
 }
 section#mast img {
   width: 100%;
@@ -1950,8 +2046,147 @@ section.contact article.right p span a:hover {
 /*================  RESPONSIVE STYLES  ================*/
 /*====================================================*/
 /*Contains ALL responsive code. Must be imported last so that it is the last css read.*/
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1700px) {
+  section.slider div.flexslider li div.headline {
+    top: 10%;
+  }
+  section.slider div.flexslider li div.headline p.tag {
+    margin: -180px 0 0 22%;
+  }
+}
+@media screen and (max-width: 1500px) {
+  section.slider div.flexslider li div.headline {
+    top: 0;
+  }
+}
+@media screen and (max-width: 1300px) {
   html {
     font-size: 14.5px;
+  }
+  .inner {
+    width: 90%;
+  }
+  section.slider div.flexslider li div.headline p.tag {
+    font-size: 5.5em;
+  }
+}
+@media screen and (max-width: 1200px) {
+  html {
+    font-size: 14px;
+  }
+  section.slider div.flexslider li div.headline p.number {
+    font-size: 26em;
+  }
+  section.slider div.flexslider li div.headline p.tag {
+    margin-top: -95px;
+  }
+}
+@media screen and (max-width: 1100px) {
+  html {
+    font-size: 13.5px;
+  }
+  section.slider div.flexslider li div.headline {
+    top: 10%;
+    left: 41%;
+  }
+  section.slider div.flexslider li div.headline p.number {
+    font-size: 16em;
+  }
+  section.slider div.flexslider li div.headline p.tag {
+    font-size: 3.5em;
+  }
+  section#intro div#rwm {
+    left: -26%;
+  }
+  section#intro div#text {
+    padding-left: 47%;
+  }
+}
+@media screen and (max-width: 1000px) {
+  html {
+    font-size: 13px;
+  }
+  section#infoBoxes article.box .img {
+    height: 240px;
+  }
+  .btn {
+    padding-bottom: 12px;
+  }
+  section.slider div.flexslider li div.headline {
+    top: 20%;
+  }
+}
+@media screen and (max-width: 900px) {
+  html {
+    font-size: 12.5px;
+  }
+  section#intro div#rwm {
+    left: -30%;
+  }
+  section#intro div#rwm img {
+    width: 90%;
+  }
+}
+@media screen and (max-width: 800px) {
+  html {
+    font-size: 12px;
+  }
+  section#intro div#text {
+    padding: 30px 0 30px 55%;
+  }
+  section#infoBoxes article.box {
+    width: 43%;
+    margin: 0 3% 30px;
+  }
+}
+@media screen and (max-width: 700px) {
+  section#intro div#rwm {
+    display: none;
+  }
+  section#intro div#text {
+    padding-left: 0;
+  }
+  section#infoBoxes {
+    padding: 40px 0 55px;
+  }
+  section.slider div.flexslider li div.headline {
+    left: 24%;
+  }
+}
+@media screen and (max-width: 600px) {
+  section#infoBoxes article.box {
+    width: 60%;
+    margin: 0 20% 30px;
+  }
+  section.slider div.flexslider li div.headline {
+    top: 10%;
+  }
+}
+@media screen and (max-width: 500px) {
+  section#infoBoxes article.box {
+    width: 72%;
+    margin: 0 14% 30px;
+  }
+  section.slider div.flexslider li div.headline p.number {
+    font-size: 10em;
+  }
+  section.slider div.flexslider li div.headline p.tag {
+    font-size: 3em;
+    margin: -65px 0 0 13%;
+  }
+}
+@media screen and (max-width: 400px) {
+  section.slider div.flexslider li div.headline {
+    top: 2%;
+  }
+  section.slider div.flexslider li div.headline p.tag {
+    font-size: 2em;
+  }
+  section#infoBoxes article.box {
+    width: 100%;
+    margin: 0 0 20px;
+  }
+  section#infoBoxes {
+    padding: 20px 0;
   }
 }

@@ -79,25 +79,25 @@
 
 		<div id="text">
 
-			<h1>Welcome to the Tennessee Technological University Tuba/Euphonium Studio website. This is the website for the internationally acclaimed <a href="/ttte/">Tennessee Tech Tuba Ensemble</a>, TTTE <a href="/recordings/">recordings</a> and the TTU chapter of <a href="http://www.iteaonline.org/index.php" target="_blank" rel="nofollow">International Tuba/Euphonium Association</a> (previously: T.U.B.A.). You can also access information here on all our <a href="/alumni/">alumni</a>, current <a href="/calendar/">calendar</a> of events (off campus performances, on campus performances) and other activities.</h1>
+			<h1>Welcome to the Tennessee Technological University Tuba/Euphonium Studio website, home of the internationally acclaimed <a href="/ttte/">Tennessee Tech Tuba Ensemble</a>, <a href="/recordings/">groundbreaking recordings</a> and the TTU chapter of the <a href="http://www.iteaonline.org/index.php" target="_blank" rel="nofollow">International Tuba Euphonium Association</a>. You can also access information here on all our <a href="/alumni/">alumni</a>, our current <a href="/calendar/">calendar of events</a> and other tuba-centric information.</h1>
 
 		</div><!--text-->
 
-	</div><!--inner-->
+		<div id="rwm"><img src="/_assets/img/r-winston-morris.png" alt="R. Winston Morris" title="R. Winston Morris">
 
-	<div id="rwm"><img src="/_assets/img/r-winston-morris.png" alt="R. Winston Morris" title="R. Winston Morris">
+	</div><!--inner-->
 
 </section><!--intro-->
 
 <section id="infoBoxes">
 
 	<div class="inner">
-		
+
 		<article class="box">
 
-			<h3>The Tennessee Tech Tuba Ensemble &amp; R.Winston Morris</h3>
+			<div class="img retro"></div>
 
-			<img src="/_assets/img/book-ttte.jpg" alt="The Tennessee Tech Tuba Ensemble &amp; R.Winston Morris; A 40th Anniversary Retrospective" title="The Tennessee Tech Tuba Ensemble &amp; R.Winston Morris; A 40th Anniversary Retrospective">
+			<div class="heading-container"><span class="icon-book"></span><h3>The Tennessee Tech Tuba Ensemble &amp; R.Winston Morris</h3></div>
 
 			<a class="btn" href="http://www.amazon.com/Tennessee-Tech-Ensemble-Winston-Morris/dp/0810877309/ref=sr_1_13?s=books&ie=UTF8&qid=1287783481&sr=1-13" target="_blank" rel="nofollow">Buy Now</a>
 
@@ -105,9 +105,19 @@
 
 		<article class="box">
 
-			<h3>The Euphonium Source Book</h3>
+			<div class="img alumni"></div>
 
-			<img src="/_assets/img/book-euphonium-source-book.jpg" alt="Guide to the Euphonium Repertoire" title="The Euphonium Source Book">
+			<div class="heading-container"><span class="icon-anchor"></span><h3>Calling All Alumni!</h3></div>
+
+			<a class="btn" href="/pdf/form-alumni.pdf">Download Form</a>
+
+		</article><!--box-->
+
+		<article class="box">
+
+			<div class="img euphonium-source"></div>
+
+			<div class="heading-container"><span class="icon-book"></span><h3>The Euphonium Source Book</h3></div>
 
 			<a class="btn" href="http://www.iupress.indiana.edu/product_info.php?products_id=33464" target="_blank" rel="nofollow">Buy Now</a>
 
@@ -115,49 +125,9 @@
 
 		<article class="box">
 
-			<h3>The Tuba Source Book</h3>
+			<div class="img npr"></div>
 
-			<img src="/_assets/img/book-guide-to-the-tuba-repertoire.jpg" alt="Guide to the Tuba Repertoire" title="The Tuba Source Book">
-
-			<a class="btn" href="http://www.iupress.indiana.edu/product_info.php?products_id=35764" target="_blank" rel="nofollow">Buy Now</a>
-
-		</article><!--box-->
-
-		<article class="box">
-
-			<img src="/_assets/img/carnegie-bound.jpg" alt="Carnegie Bound March 2014" title="Carnegie Bound March 2014">
-
-			<h4>Carnegie Bound March 2014</h4>
-
-			<a class="btn" href="http://vimeo.com/album/2785456" target="_blank" rel="nofollow">View Video</a>
-
-		</article><!--box-->
-
-		<article class="box">
-
-			<img src="/_assets/img/tuba-u-basso-profundo.jpg" alt="Tuba U: Basso Profundo" title="Tuba U: Basso Profundo">
-
-			<h4>TUBA U: Basso Profundo takes a curious look at the history, physicality and personalities of the tuba - an amazing, if unheralded, horn.</h4>
-
-			<a class="btn" href="http://www.tubau.org/" target="_blank" rel="nofollow">Visit Site</a>
-
-		</article><!--box-->
-
-		<article class="box">
-
-			<h3>TTTE Merchandise</h3>
-
-			<img src="/_assets/img/ttte-merchandise.jpg" alt="Tennessee Tech Tuba Ensemble Merchandise" title="Tennessee Tech Tuba Ensemble Merchandise">
-
-			<a class="btn" href="NEED TO LINK TO FORM">Buy Now</a>
-
-		</article><!--box-->
-
-		<article class="box">
-
-			<img src="/_assets/img/logo-npr.jpg" alt="Nashville Public Radio logo" title="Nashville Public Radio logo">
-
-			<h4>This National Public Radio story produced by Todd Jarrell recently won the 2005 Public Radio News Directors Incorporated (PRNDI) FIRST PLACE award for the "Best Soft Feature"</h4>
+			<div class="heading-container"><span class="icon-audio"></span><h3>Award-Winning NPR Feature</h3></div>
 
 			<a class="btn" href="http://orgs.tntech.edu/tuba/TTTE/NPR/NPRRadio.mp3" target="_blank" rel="nofollow">Listen Now</a>
 
@@ -165,11 +135,49 @@
 
 		<article class="box">
 
-			<h3>New book toots horn for Tennessee Tech Tuba Ensemble</h3>
+			<div class="img tuba-source"></div>
 
-			<img src="/_assets/img/article-new-book.jpg" alt="Tennessee Tech Tuba Ensemble Merchandise" title="Tennessee Tech Tuba Ensemble Merchandise">
+			<div class="heading-container"><span class="icon-book"></span><h3>The Tuba Source Book</h3></div>
 
-			<h4>Just in time for its 45th anniversary...</h4>
+			<a class="btn" href="http://www.iupress.indiana.edu/product_info.php?products_id=35764" target="_blank" rel="nofollow">Buy Now</a>
+
+		</article><!--box-->
+
+		<article class="box">
+
+			<div class="img carnegie"></div>
+
+			<div class="heading-container"><span class="icon-video"></span><h3>Carnegie Bound March 2014</h3></div>
+
+			<a class="btn" href="http://vimeo.com/album/2785456" target="_blank" rel="nofollow">View Video</a>
+
+		</article><!--box-->
+
+		<article class="box">
+
+			<div class="img profundo"></div>
+
+			<div class="heading-container"><span class="icon-website"></span><h3>TUBA U: Basso Profundo</h3></div>
+
+			<a class="btn" href="http://www.tubau.org/" target="_blank" rel="nofollow">Visit Site</a>
+
+		</article><!--box-->
+
+		<article class="box">
+
+			<div class="img merch"></div>
+
+			<div class="heading-container"><span class="icon-shirt"></span><h3>TTTE Merchandise</h3></div>
+
+			<a class="btn" href="NEED TO LINK TO FORM">Buy Now</a>
+
+		</article><!--box-->
+
+		<article class="box">
+
+			<div class="img book"></div>
+
+			<div class="heading-container"><span class="icon-book"></span><h3>New Book Toots TTTE Horn</h3></div>
 
 			<a class="btn" href="LOST THIS LINK">Read More</a>
 
@@ -177,23 +185,11 @@
 
 		<article class="box">
 
-			<img src="/_assets/img/logo-american-profile.png" alt="American Profile logo" title="American Profile logo">
+			<div class="img titan"></div>
 
-			<h5>Titan of the Tuba</h5>
-
-			<h4>Winston Morris stands center stage, anchoring a fanfare of gleaming brass instruments and 26 student musicians who comprise the oldest and most recorded tuba...</h4>
+			<div class="heading-container"><span class="icon-article"></span><h3>Titan of the Tuba</h3></div>
 
 			<a class="btn" href="LOST THIS LINK TOO" target="_blank" rel="nofollow">Read More</a>
-
-		</article><!--box-->
-
-		<article class="box">
-
-			<h3>Calling all Alumni!</h3>
-
-			<h6>In anticipation of the 50th Anniversary of the Tennessee Tech Tuba Ensemble (and, coincidently Professor Morris’ 50th anniversary and tenure at TTU) that will be celebrated during Homecoming in the fall of 2016, we need to update all of our files on all <a href="/alumni/">alumni</a>. Please help us out by filling out this form!</h6>
-
-			<a class="btn" href="/pdf/form-alumni.pdf">Download Form</a>
 
 		</article><!--box-->
 

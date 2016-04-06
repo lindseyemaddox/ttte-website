@@ -25,7 +25,7 @@ section.slider {
 					line-height: 1em;
 					padding: 0;
 				}
-			}		
+			}
 			div.overlay {
 				background-color: #000;
 				opacity: .5;
@@ -42,19 +42,23 @@ section.slider {
 }
 section#intro {
 	position: relative;
-	background-color: @gold;
+	background-color: #1f1f1f;
+	.inner {
+		position: relative;
+	}
 	div#text {
-		padding: 33px 0 33px 45%;
+		padding: 50px 0 50px 55%;
 		h1 {
 			.ubuntu-regular;
-			font-size: 1.6em;
-			line-height: 1.25em;
+			font-size: 1.2em;
+			line-height: 1.8em;
 			text-align: left;
+			padding-bottom: 0;
 			a {
-				color: #fff;
-				text-decoration: underline;
+				color: @gold;
+				text-decoration: none;
 				&:hover {
-					color: @purple;
+					text-decoration: underline;
 					.transition;
 				}
 			}
@@ -63,7 +67,7 @@ section#intro {
 	div#rwm {
 		position: absolute;
 		bottom: 0;
-		left: 5%;
+		left: -9%;
 		z-index: 1;
 		img {
 			width: 95%;
@@ -79,57 +83,93 @@ section#infoBoxes {
 		vertical-align: top;
 		width: 30%;
 		margin: 0 1.5% 30px;
-		padding: 20px 2%;
-		background: url(/_assets/img/pattern-yellow.png) repeat left top transparent;
-		min-height: 636px;
 		position: relative;
-		img {
+		&:hover {
+			.retro, .euphonium-source, .tuba-source, .carnegie, .profundo, .merch, .npr, .book, .titan, .alumni {
+				opacity: 1;
+			}
+			.heading-container {
+				opacity: .1;
+				top: 30px;
+			}
+			.btn {
+				background-color: @green;
+				bottom: 30px;
+			}
+		}
+		.img {
 			width: 100%;
-			margin-bottom: 10px;
+			height: 280px;
+			opacity: .3;
+			border: 2px solid #fff;
+			.border-radius(2px);
+			.transition;
+		}
+		.retro {
+			background: url(/_assets/img/book-ttte.jpg) no-repeat center center transparent;
+		}
+		.euphonium-source {
+			background: url(/_assets/img/book-euphonium-source-book.jpg) no-repeat center center transparent;
+		}
+		.tuba-source {
+			background: url(/_assets/img/book-guide-to-the-tuba-repertoire.jpg) no-repeat center center transparent;
+		}
+		.carnegie {
+			background: url(/_assets/img/carnegie-bound.jpg) no-repeat center center transparent;
+		}
+		.profundo {
+			background: url(/_assets/img/tuba-u-basso-profundo.jpg) no-repeat center center transparent;
+		}
+		.merch {
+			background: url(/_assets/img/ttte-merchandise.jpg) no-repeat center center transparent;
+		}
+		.npr {
+			background: url(/_assets/img/logo-npr.jpg) no-repeat center center transparent;
+		}
+		.book {
+			background: url(/_assets/img/article-new-book.jpg) no-repeat center center transparent;
+		}
+		.titan {
+			background: url(/_assets/img/logo-american-profile.png) no-repeat center center transparent;
+		}
+		.alumni {
+			background: url(/_assets/img/german-band.jpg) no-repeat center center transparent;
+			background-size: cover;
+		}
+		.heading-container {
+			.transition;
+			width: 80%;
+			margin: 0 10%;
+			position: absolute;
+			top: 20px;
+			padding: 20px;
+			opacity: 1;
+			span {
+				display: block;
+				text-align: center;
+				font-size: 4em;
+				margin-bottom: 10px;
+			}
 		}
 		h3 {
 			text-align: center;
 			.aleo-bold;
-			color: #000;
-			text-transform: uppercase;
-			font-size: 1.8em;
-			line-height: 1em;
+			color: #fff;
+			font-size: 1.3em;
+			line-height: 1.2em;
 			margin-bottom: 10px;
 			white-space: inherit;
 		}
-		h4 {
-			.ubuntu-medium;
-			font-size: 2em;
-			line-height: 1.2em;
-			color: #000;
-			text-align: center;
-			margin-bottom: 10px;
-		}
-		h5 {
-			.ubuntu-medium-italic;
-			font-size: 2.6666666666666665em;
-			margin: 10px 0;
-		}
-		h6 {
-			.ubuntu-regular;
-			font-size: 1.6666666666666667em;
-			line-height: 1.5em;
-			text-align: center;
-			color: #000;
-			text-transform: none;
-			a {
-				text-decoration: underline;
-				color: #000;
-				&:hover {
-					color: @green;
-					.transition;
-				}
-			}
-		}
 		.btn {
+			width: 80%;
+			margin: 0 10%;
 			position: absolute;
 			bottom: 20px;
-			width: 87%;
+			.transition;
+			&:hover {
+				background-color: #fff;
+				color: @green;
+			}
 		}
 	}
 }
